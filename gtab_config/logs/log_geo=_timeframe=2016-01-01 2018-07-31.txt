@@ -3739,3 +3739,68 @@ New query calibrated!
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
 New query 'Vince Ingenito "Sexual harassment"'
 Keyword Vince Ingenito "Sexual harassment" is bad!
+
+2023-09-17 08:23:54.855498
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Bruce Weber "Sexual harassment"'
+New query calibrated!
+
+2023-09-17 08:24:24.399156
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "Sexual harassment"'
+Keyword William Strampel "Sexual harassment" is bad!
+
+2023-09-17 08:24:35.075674
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "ugly"'
+Keyword William Strampel "ugly" is bad!
+
+2023-09-17 08:24:46.065573
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "dean"'
+Keyword William Strampel "dean" is bad!
+
+2023-09-17 08:24:56.643684
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "former"'
+Keyword William Strampel "former" is bad!
+
+2023-09-17 08:25:07.319092
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "michigan"'
+Keyword William Strampel "michigan" is bad!
+
+2023-09-17 08:25:18.316531
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "william"'
+Keyword William Strampel "william" is bad!
+
+2023-09-17 08:25:28.647529
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "predator"'
+Keyword William Strampel "predator" is bad!
+
+2023-09-17 08:25:39.312893
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "university"'
+Keyword William Strampel "university" is bad!
+
+2023-09-17 08:25:50.153593
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "state"'
+Keyword William Strampel "state" is bad!
+
+2023-09-17 08:26:01.124825
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "number"'
+Keyword William Strampel "number" is bad!
+
+2023-09-17 08:26:12.176256
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "strampel"'
+Keyword William Strampel "strampel" is bad!
+
+2023-09-17 09:22:31.767044
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Don Hazen "Sexual harassment"'
+Keyword Don Hazen "Sexual harassment" is bad!

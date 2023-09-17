@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  collect_trend:
+    image: 0jacky/notorious_cls
+    build:
+      dockerfile: .
+      context: .
+    container_name: collect_google_trend
+    volumes:
+      - $PWD/config:/notorious_cls/config
+      - $PWD/log:/notorious_cls/log
+      - $PWD/data:/notorious_cls/data
+      - $PWD/env:/notorious_cls/env
+      - $PWD/model:/notorious_cls/model
+      - $PWD/gtab_config:/notorious_cls/gtab_config
+      - $PWD/src/data:/notorious_cls/src/data
+    environment:
+      - HUGGINGFACE_HUB_CACHE=/notorious_cls/model/huggingface/hub
+      - FLAIR_CACHE_ROOT=/notorious_cls/model/flair
+      - NLTK_DATA=/notorious_cls/model/nltk_data
+
+    command: python src/data/collect_trend.py

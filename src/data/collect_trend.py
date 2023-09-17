@@ -1,10 +1,10 @@
+from operator import neg
 from gtab import GTAB
 import hydra
 from loguru import logger
 from omegaconf import DictConfig
 import orjson
 from pathlib import Path
-import pandas as pd
 from typing import List
 from tqdm import tqdm
 import sys
@@ -24,21 +24,17 @@ class TrendSearch():
                  sentiment_model: str = "sentiment",
                  extract_model: str = "Voicelab/vlt5-base-keywords"
                  ):
-        invalid_keywords = (
-            Path('env/invalid_keyword.txt')
+        self.no_result_path = Path('env/no_result.txt')
+        self.invalid_keyword_path = Path('env/invalid_keyword.txt')
+        self.invalid_keywords = (
+            self.invalid_keyword_path
             .read_text()
             .split('\n')
         )[:-1]
 
-        keyword_list = [
+        self.keyword_list = [
             i + " " + "\"" + suffix + "\""
             for i in list(set(predator_list))
-        ]
-
-        self.keyword_list = [
-            i
-            for i in keyword_list
-            if i not in invalid_keywords
         ]
 
         self.geo = geo
@@ -99,12 +95,15 @@ class TrendSearch():
 
 
     def calibrate_instance(self, keyword: str):
-        return (
-            self.t
-            .new_query(keyword)['max_ratio']
-            .resample('M')
-            .mean()
-        )
+        if keyword in self.invalid_keywords:
+            raise KeyError("invalid keyword")
+        else:
+            return (
+                self.t
+                .new_query(keyword)['max_ratio']
+                .resample('M')
+                .mean()
+            )
 
     def calibrate_and_write(self, keyword: str, output_path: Path):
         status = 0
@@ -131,6 +130,10 @@ class TrendSearch():
                     },
                     option = orjson.OPT_INDENT_2
                 ))
+        else:
+            with self.invalid_keyword_path.open('a') as f:
+                f.write(keyword)
+
         return status
 
     def calibrate_batch(self, sleep: float = 5.):
@@ -164,17 +167,15 @@ class TrendSearch():
                 status = self.calibrate_and_write(keyword, output_path)
                 if status == -1:
                     negative_keywords = self.negative_search(predator)
-                    find = False
-                    for i in negative_keywords:
-                        new_keyword = f'{predator} "{i}"'
+                    i = 0
+                    while status == -1 or i < len(negative_keywords):
+                        new_keyword = f'{predator} "{negative_keywords[i]}"'
                         status = self.calibrate_and_write(new_keyword, output_path)
-                        if status == 0: 
-                            find = True
-                            break
+                        i += 1
 
-                    if not find: logger.warning(f"fail have trend result: {predator}")
-            else:
-                logger.info(f"query result has alread exist: {keyword}")
+                    if status == -1:
+                        with self.no_result_path.open('a') as f:
+                            f.write(predator)
 
 
 @hydra.main(config_path="../../config", config_name="main", version_base=None)

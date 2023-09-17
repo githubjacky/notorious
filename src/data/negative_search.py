@@ -1,3 +1,4 @@
+import flair
 from flair.data import Sentence
 from flair.nn import Classifier
 from flair.embeddings import TransformerDocumentEmbeddings
@@ -16,9 +17,9 @@ from tqdm import tqdm
 
 
 class NegativeKW_Collector():
-    def __init__(self, 
-                 n_url: int, 
-                 sleep: int, 
+    def __init__(self,
+                 n_url: int,
+                 sleep: int,
                  sentiment_model: str, 
                  extract_model: str
                  ):
