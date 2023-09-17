@@ -16,6 +16,8 @@ import pandas as pd
 from pytrends.request import TrendReq
 from tqdm import tqdm
 
+from loguru import logger
+
 
 class GTAB:
 
@@ -77,7 +79,7 @@ class GTAB:
             else:
                 print("Directory already exists, loading data from it.")
 
-        print(f"Using directory '{self.dir_path}'")
+        logger.info(f"gtab: Using directory '{self.dir_path}'")
         if from_cli:
             with open(os.path.join(self.dir_path, "config", "config_cl.json"), 'r') as fp:
                 self.CONFIG = json.load(fp)
@@ -845,7 +847,7 @@ class GTAB:
             t_pytrends_config = ast.literal_eval(f_in.readline()[1:].strip())['PYTRENDS']
             self.set_options(pytrends_config=t_pytrends_config, gtab_config=t_gtab_config)
 
-        print(f"Active anchorbank changed to: {os.path.basename(self.active_gtab)}\n")
+        logger.info(f"gtab: Active anchorbank changed to: {os.path.basename(self.active_gtab)}\n")
 
     def create_anchorbank(self, verbose=False, keep_diagnostics=False):
 

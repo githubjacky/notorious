@@ -3,18 +3,23 @@ hydra:
     run:
       dir: .
 
+data:
+  raw: data/raw/
+  preprocess: data/preprocess
+
 gtab:
   keyword_path: data/raw/victim_list_01252023.xlsx
   sheet: S
-  suffix: Me Too
+  suffix: Sexual harassment
   init_path: gtab_config
-  output_dir: data/gtab_res
   geo: worldwide
   period:
       - 2016-01-01
       - 2018-07-31
   sleep: 5.
-  retry: 3
 
-data:
-  raw: data/raw/
+negative_search:
+  sleep: 60
+  n_url: 90
+  sentiment_model: sentiment
+  extract_model: Voicelab/vlt5-base-keywords

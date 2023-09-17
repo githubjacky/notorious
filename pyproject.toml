@@ -13,12 +13,18 @@ loguru = "^0.7.0"
 orjson = "^3.9.4"
 tqdm = "^4.66.1"
 pandas = "==1.*"
+keyphrase-vectorizers = "^0.0.11"
 
 [tool.poetry.group.data.dependencies]
 urllib3 = "==1.*"
 networkx = ">=2.4"
 openpyxl = "^3.1.2"
 pytrends = ">=4.7.2"
+keybert = "^0.7.0"
+httpx = "^0.25.0"
+googlesearch-python = "^1.2.3"
+flair = "^0.12.2"
+selectolax = "^0.3.16"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^6.2.5"
