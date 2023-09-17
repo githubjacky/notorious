@@ -132,7 +132,7 @@ class TrendSearch():
                 ))
         else:
             with self.invalid_keyword_path.open('a') as f:
-                f.write(keyword)
+                f.write(keyword + '\n')
 
         return status
 
@@ -168,7 +168,7 @@ class TrendSearch():
                 if status == -1:
                     negative_keywords = self.negative_search(predator)
                     i = 0
-                    while status == -1 or i < len(negative_keywords):
+                    while status == -1 and i < len(negative_keywords):
                         new_keyword = f'{predator} "{negative_keywords[i]}"'
                         status = self.calibrate_and_write(new_keyword, output_path)
                         i += 1

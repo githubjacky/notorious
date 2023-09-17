@@ -3,20 +3,24 @@ services:
   collect_trend:
     image: 0jacky/notorious_cls
     build:
-      dockerfile: .
+      dockerfile: ./Dockerfile
       context: .
+      args:
+        UID: $UID
+        GID: $GID
+        USER: $DOCKER_USER
     container_name: collect_google_trend
     volumes:
-      - $PWD/config:/notorious_cls/config
-      - $PWD/log:/notorious_cls/log
-      - $PWD/data:/notorious_cls/data
-      - $PWD/env:/notorious_cls/env
-      - $PWD/model:/notorious_cls/model
-      - $PWD/gtab_config:/notorious_cls/gtab_config
-      - $PWD/src/data:/notorious_cls/src/data
+      - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
+      - $PWD/log:/home/$DOCKER_USER/notorious_cls/log
+      - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
+      - $PWD/env:/home/$DOCKER_USER/notorious_cls/env
+      - $PWD/model:/home/$DOCKER_USER/notorious_cls/model
+      - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
+      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
     environment:
-      - HUGGINGFACE_HUB_CACHE=/notorious_cls/model/huggingface/hub
-      - FLAIR_CACHE_ROOT=/notorious_cls/model/flair
-      - NLTK_DATA=/notorious_cls/model/nltk_data
-
+      - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
+      - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
+      - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
+    user: "$UID:$GID"
     command: python src/data/collect_trend.py

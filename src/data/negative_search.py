@@ -57,7 +57,8 @@ class NegativeKW_Collector():
 
 
     def fetch_corpos(self) -> List[Sentence]:
-        logging.getLogger("httpx").setLevel(logging.WARNING)
+        logger = logging.getLogger("httpx")
+        logger.disables = True
         output_path = self.output_dir / f"{self.n_url}_corpus.json"
 
         if output_path.exists():
@@ -109,7 +110,11 @@ class NegativeKW_Collector():
             if 0.7 < i[1]:
                 _keywords += i[0].split(' ')
 
-        keywords = list(set(_keywords))
+        keywords = [
+            i 
+            for i in list(set(_keywords)) 
+            if i not in [j.lower() for j in predator.split(" ")]
+        ]
 
         with output_path.open('wb') as f:
             f.write(orjson.dumps({"keywords": keywords}, option=orjson.OPT_INDENT_2))
