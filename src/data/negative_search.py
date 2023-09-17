@@ -113,7 +113,7 @@ class NegativeKW_Collector():
         keywords = [
             i 
             for i in list(set(_keywords)) 
-            if i not in [j.lower() for j in predator.split(" ")]
+            if i not in [j.lower() for j in self.predator.split(" ")]
         ]
 
         with output_path.open('wb') as f:

@@ -22,5 +22,4 @@ services:
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
-    user: "$UID:$GID"
-    command: python src/data/collect_trend.py
+    command: python /home/$DOCKER_USER/notorious_cls/src/data/collect_trend.py

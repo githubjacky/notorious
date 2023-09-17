@@ -3804,3 +3804,18 @@ Keyword William Strampel "strampel" is bad!
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
 New query 'Don Hazen "Sexual harassment"'
 Keyword Don Hazen "Sexual harassment" is bad!
+
+2023-09-17 17:10:38.840515
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roger Ailes "Sexual harassment"'
+New query calibrated!
+
+2023-09-17 17:11:01.303142
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Clay Johnson "Sexual harassment"'
+Keyword Clay Johnson "Sexual harassment" is bad!
+
+2023-09-17 18:13:16.651083
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Barry Lubin "Sexual harassment"'
+Keyword Barry Lubin "Sexual harassment" is bad!
