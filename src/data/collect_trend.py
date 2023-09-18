@@ -174,8 +174,9 @@ class TrendSearch():
                         i += 1
 
                     if status == -1:
+                        logger.warning(f"fail to collect trend: {predator}")
                         with self.no_result_path.open('a') as f:
-                            f.write(predator)
+                            f.write(predator + '\n')
 
 
 @hydra.main(config_path="../../config", config_name="main", version_base=None)

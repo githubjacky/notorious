@@ -100,8 +100,7 @@ class NegativeKW_Collector():
                 negative_sentence.append(item['text'])
 
         __keywords = self.kw_model.extract_keywords(
-            docs = "\n".join(negative_sentence),
-            vectorizer = KeyphraseTfidfVectorizer()
+            docs = "\n".join(negative_sentence)
         )
 
         logger.info("negative search: fetch negative keywords")
