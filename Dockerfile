@@ -24,6 +24,7 @@ RUN apt-get update && \
 RUN curl -sSL https://install.python-poetry.org | python3 - --version 1.6.0
 COPY pyproject.toml ./
 RUN poetry install
+RUN python -m spacy download en_core_web_sm
 EXPOSE 8888
 
 USER $USER

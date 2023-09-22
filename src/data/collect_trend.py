@@ -24,7 +24,6 @@ class TrendSearch():
                  sentiment_model: str = "sentiment",
                  extract_model: str = "Voicelab/vlt5-base-keywords"
                  ):
-        self.no_result_path = Path('env/no_result.txt')
         self.invalid_keyword_path = Path('env/invalid_keyword.txt')
         self.invalid_keywords = (
             self.invalid_keyword_path
@@ -175,8 +174,16 @@ class TrendSearch():
 
                     if status == -1:
                         logger.warning(f"fail to collect trend: {predator}")
-                        with self.no_result_path.open('a') as f:
+                        with Path('env/no_result.txt').open('a') as f:
                             f.write(predator + '\n')
+                    else:
+                        with Path('env/check_result.txt').open('a') as f:
+                            f.write(f"{predator}: {negative_keywords[i-1]}" + '\n')
+                else:
+                    with Path('env/valid_result.txt').open('a') as f:
+                        f.write(predator + '\n')
+
+
 
 
 @hydra.main(config_path="../../config", config_name="main", version_base=None)

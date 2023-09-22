@@ -57,8 +57,7 @@ class NegativeKW_Collector():
 
 
     def fetch_corpos(self) -> List[Sentence]:
-        logger = logging.getLogger("httpx")
-        logger.disables = True
+        logging.getLogger("httpx").setLevel(logging.WARNING)
         output_path = self.output_dir / f"{self.n_url}_corpus.json"
 
         if output_path.exists():
@@ -100,13 +99,15 @@ class NegativeKW_Collector():
                 negative_sentence.append(item['text'])
 
         __keywords = self.kw_model.extract_keywords(
-            docs = "\n".join(negative_sentence)
+            docs = "\n".join(negative_sentence),
+            vectorizer = KeyphraseTfidfVectorizer()
         )
 
         logger.info("negative search: fetch negative keywords")
         _keywords = []
         for i in __keywords:
             if 0.7 < i[1]:
+                _keywords.append(i[0])
                 _keywords += i[0].split(' ')
 
         keywords = [

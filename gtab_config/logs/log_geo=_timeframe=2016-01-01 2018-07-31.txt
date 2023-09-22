@@ -4409,3 +4409,1028 @@ Keyword Carlos Uresti "twitter" is bad!
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
 New query 'Vince Ingenito "Sexual harassment"'
 Keyword Vince Ingenito "Sexual harassment" is bad!
+
+2023-09-18 03:39:29.562266
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roland G. Fryer, Jr. "Sexual harassment"'
+Keyword Roland G. Fryer, Jr. "Sexual harassment" is bad!
+
+2023-09-18 03:43:18.271607
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roland G. Fryer, Jr. "realclearinvestigations"'
+Keyword Roland G. Fryer, Jr. "realclearinvestigations" is bad!
+
+2023-09-18 03:43:29.321642
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roland G. Fryer, Jr. "institution"'
+Keyword Roland G. Fryer, Jr. "institution" is bad!
+
+2023-09-18 03:43:40.093263
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roland G. Fryer, Jr. "harassed"'
+Keyword Roland G. Fryer, Jr. "harassed" is bad!
+
+2023-09-18 03:43:50.904837
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roland G. Fryer, Jr. "issues"'
+Keyword Roland G. Fryer, Jr. "issues" is bad!
+
+2023-09-18 03:44:01.417179
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roland G. Fryer, Jr. "following"'
+Keyword Roland G. Fryer, Jr. "following" is bad!
+
+2023-09-18 03:44:12.190971
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Eric Schneiderman "Sexual harassment"'
+Keyword Eric Schneiderman "Sexual harassment" is bad!
+
+2023-09-18 03:49:28.958645
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Eric Schneiderman "accused"'
+New query calibrated!
+
+2023-09-18 03:49:51.435973
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sean Hannity "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 03:50:13.323547
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Brett Kavanaugh "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 03:50:41.378825
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Brett Ratner "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 03:51:03.363828
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ameer Vann "Sexual harassment"'
+Keyword Ameer Vann "Sexual harassment" is bad!
+
+2023-09-18 03:54:42.095757
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ameer Vann "according"'
+Keyword Ameer Vann "according" is bad!
+
+2023-09-18 03:54:53.140177
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ameer Vann "accused"'
+Keyword Ameer Vann "accused" is bad!
+
+2023-09-18 03:55:03.897258
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ameer Vann "iridescence"'
+Keyword Ameer Vann "iridescence" is bad!
+
+2023-09-18 03:55:14.907847
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ameer Vann "announced"'
+Keyword Ameer Vann "announced" is bad!
+
+2023-09-18 03:55:25.935951
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ameer Vann "assault"'
+Keyword Ameer Vann "assault" is bad!
+
+2023-09-18 03:55:36.748971
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robert Moore "Sexual harassment"'
+Keyword Robert Moore "Sexual harassment" is bad!
+
+2023-09-18 04:00:02.693943
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robert Moore "twitter"'
+New query calibrated!
+
+2023-09-18 04:00:24.997042
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roger Ailes "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 04:00:46.461608
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Brent Hamilton "Sexual harassment"'
+Keyword Brent Hamilton "Sexual harassment" is bad!
+
+2023-09-18 04:04:50.418442
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Brent Hamilton "wvxu"'
+Keyword Brent Hamilton "wvxu" is bad!
+
+2023-09-18 04:05:00.962281
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Brent Hamilton "export_white"'
+Keyword Brent Hamilton "export_white" is bad!
+
+2023-09-18 04:05:55.454364
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Morgan Freeman "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 04:07:20.036269
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'George Tyndall "Sexual harassment"'
+Keyword George Tyndall "Sexual harassment" is bad!
+
+2023-09-18 04:11:42.264151
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'George Tyndall "gynecologist"'
+New query calibrated!
+
+2023-09-18 04:12:04.830699
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Adam Venit "Sexual harassment"'
+Keyword Adam Venit "Sexual harassment" is bad!
+
+2023-09-18 04:16:51.041413
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Adam Venit "assaulting"'
+Keyword Adam Venit "assaulting" is bad!
+
+2023-09-18 04:17:01.847968
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Adam Venit "junkee"'
+Keyword Adam Venit "junkee" is bad!
+
+2023-09-18 04:17:12.890577
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Adam Venit "accusations"'
+Keyword Adam Venit "accusations" is bad!
+
+2023-09-18 04:17:23.649901
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Adam Venit "assaulted"'
+Keyword Adam Venit "assaulted" is bad!
+
+2023-09-18 04:17:34.454042
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Adam Venit "accused"'
+Keyword Adam Venit "accused" is bad!
+
+2023-09-18 04:17:45.501142
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Christina Seafort "Sexual harassment"'
+Keyword Christina Seafort "Sexual harassment" is bad!
+
+2023-09-18 05:47:50.387766
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Christina Seafort "facebook_footer"'
+Keyword Christina Seafort "facebook_footer" is bad!
+
+2023-09-18 05:48:01.399493
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Christina Seafort "twitter_footer"'
+Keyword Christina Seafort "twitter_footer" is bad!
+
+2023-09-18 05:48:12.381033
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Christina Seafort "linkedin_footer"'
+Keyword Christina Seafort "linkedin_footer" is bad!
+
+2023-09-18 05:48:23.411476
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Christina Seafort "unpinned"'
+Keyword Christina Seafort "unpinned" is bad!
+
+2023-09-18 05:48:34.180683
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Christina Seafort "instagram_footer"'
+Keyword Christina Seafort "instagram_footer" is bad!
+
+2023-09-18 05:48:44.720320
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Steven Wilder Striegel "Sexual harassment"'
+Keyword Steven Wilder Striegel "Sexual harassment" is bad!
+
+2023-09-18 05:53:02.502215
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Steven Wilder Striegel "iced"'
+Keyword Steven Wilder Striegel "iced" is bad!
+
+2023-09-18 05:53:13.512079
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Steven Wilder Striegel "everybodytalks"'
+Keyword Steven Wilder Striegel "everybodytalks" is bad!
+
+2023-09-18 05:53:24.479848
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Steven Wilder Striegel "according"'
+Keyword Steven Wilder Striegel "according" is bad!
+
+2023-09-18 05:53:35.497564
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Steven Wilder Striegel "oliviamunn"'
+Keyword Steven Wilder Striegel "oliviamunn" is bad!
+
+2023-09-18 05:53:46.477230
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Steven Wilder Striegel "accused"'
+Keyword Steven Wilder Striegel "accused" is bad!
+
+2023-09-18 05:53:57.457922
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Phillip Deitrich "Sexual harassment"'
+Keyword Phillip Deitrich "Sexual harassment" is bad!
+
+2023-09-18 05:58:31.004734
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Phillip Deitrich "access"'
+Keyword Phillip Deitrich "access" is bad!
+
+2023-09-18 05:58:41.988614
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Phillip Deitrich "address"'
+Keyword Phillip Deitrich "address" is bad!
+
+2023-09-18 05:58:52.948696
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Phillip Deitrich "abuse"'
+Keyword Phillip Deitrich "abuse" is bad!
+
+2023-09-18 05:59:03.952762
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Phillip Deitrich "abusive"'
+Keyword Phillip Deitrich "abusive" is bad!
+
+2023-09-18 05:59:14.967863
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Phillip Deitrich "accused"'
+Keyword Phillip Deitrich "accused" is bad!
+
+2023-09-18 05:59:26.009480
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robert Reece "Sexual harassment"'
+Keyword Robert Reece "Sexual harassment" is bad!
+
+2023-09-18 06:03:44.612020
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robert Reece "icon"'
+Keyword Robert Reece "icon" is bad!
+
+2023-09-18 06:03:55.662433
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robert Reece "left"'
+Keyword Robert Reece "left" is bad!
+
+2023-09-18 06:04:06.428771
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robert Reece "rowland"'
+Keyword Robert Reece "rowland" is bad!
+
+2023-09-18 06:04:17.435378
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robert Reece "slideshow"'
+Keyword Robert Reece "slideshow" is bad!
+
+2023-09-18 06:04:28.201723
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Antonin Kratochvil "Sexual harassment"'
+Keyword Antonin Kratochvil "Sexual harassment" is bad!
+
+2023-09-18 06:08:53.594226
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Antonin Kratochvil "121clicks"'
+Keyword Antonin Kratochvil "121clicks" is bad!
+
+2023-09-18 06:09:04.383686
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Antonin Kratochvil "quotes"'
+Keyword Antonin Kratochvil "quotes" is bad!
+
+2023-09-18 06:09:14.909956
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Antonin Kratochvil "olomouc"'
+Keyword Antonin Kratochvil "olomouc" is bad!
+
+2023-09-18 06:09:25.461012
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Antonin Kratochvil "accused"'
+Keyword Antonin Kratochvil "accused" is bad!
+
+2023-09-18 06:09:36.473094
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Antonin Kratochvil "photoquotes"'
+Keyword Antonin Kratochvil "photoquotes" is bad!
+
+2023-09-18 06:09:47.495821
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kricfalusi "Sexual harassment"'
+Keyword John Kricfalusi "Sexual harassment" is bad!
+
+2023-09-18 06:14:28.546262
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kricfalusi "assault"'
+Keyword John Kricfalusi "assault" is bad!
+
+2023-09-18 06:14:39.582105
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kricfalusi "dannyd1997"'
+Keyword John Kricfalusi "dannyd1997" is bad!
+
+2023-09-18 06:14:50.374752
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kricfalusi "pngwing"'
+Keyword John Kricfalusi "pngwing" is bad!
+
+2023-09-18 06:15:01.383353
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kricfalusi "largechevron"'
+Keyword John Kricfalusi "largechevron" is bad!
+
+2023-09-18 06:15:12.413427
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kricfalusi "accused"'
+Keyword John Kricfalusi "accused" is bad!
+
+2023-09-18 06:15:23.422588
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Cristina Garcia "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 06:15:51.249783
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robert Scoble "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 06:16:13.795895
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Borris Miles "Sexual harassment"'
+Keyword Borris Miles "Sexual harassment" is bad!
+
+2023-09-18 06:21:32.659802
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Borris Miles "acquittal"'
+Keyword Borris Miles "acquittal" is bad!
+
+2023-09-18 06:21:43.462215
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Borris Miles "yelp"'
+Keyword Borris Miles "yelp" is bad!
+
+2023-09-18 06:21:54.238362
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Borris Miles "unofficial"'
+Keyword Borris Miles "unofficial" is bad!
+
+2023-09-18 06:22:06.194782
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Borris Miles "twitter"'
+Keyword Borris Miles "twitter" is bad!
+
+2023-09-18 06:22:17.192431
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Borris Miles "accused"'
+Keyword Borris Miles "accused" is bad!
+
+2023-09-18 06:22:32.536338
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Lockhart Steele "reply"'
+Keyword Lockhart Steele "reply" is bad!
+
+2023-09-18 06:22:43.508900
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Lockhart Steele "twitter"'
+New query calibrated!
+
+2023-09-18 06:23:06.390552
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mario Testino "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 06:23:34.542346
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alex Kozinski "Sexual harassment"'
+Keyword Alex Kozinski "Sexual harassment" is bad!
+
+2023-09-18 06:30:55.027248
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alex Kozinski "licensee"'
+Keyword Alex Kozinski "licensee" is bad!
+
+2023-09-18 06:31:06.090273
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alex Kozinski "accusations"'
+Keyword Alex Kozinski "accusations" is bad!
+
+2023-09-18 06:31:17.070365
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alex Kozinski "accused"'
+Keyword Alex Kozinski "accused" is bad!
+
+2023-09-18 06:31:27.805393
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alex Kozinski "appeals"'
+Keyword Alex Kozinski "appeals" is bad!
+
+2023-09-18 06:31:38.794895
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alex Kozinski "claims"'
+Keyword Alex Kozinski "claims" is bad!
+
+2023-09-18 06:31:49.592122
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert Schultz "Sexual harassment"'
+Keyword Albert Schultz "Sexual harassment" is bad!
+
+2023-09-18 06:35:35.312813
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert Schultz "actresses"'
+Keyword Albert Schultz "actresses" is bad!
+
+2023-09-18 06:35:46.355591
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert Schultz "audrey"'
+Keyword Albert Schultz "audrey" is bad!
+
+2023-09-18 06:35:56.877295
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert Schultz "accusers"'
+New query calibrated!
+
+2023-09-18 06:36:24.981173
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Bruce Weber "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 06:36:52.724502
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Corey Lewandowski "Sexual harassment"'
+Keyword Corey Lewandowski "Sexual harassment" is bad!
+
+2023-09-18 06:41:06.115533
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Corey Lewandowski "assault"'
+New query calibrated!
+
+2023-09-18 06:41:28.028363
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "Sexual harassment"'
+Keyword William Strampel "Sexual harassment" is bad!
+
+2023-09-18 06:46:43.091088
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "affidavit"'
+Keyword William Strampel "affidavit" is bad!
+
+2023-09-18 06:46:54.111935
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'William Strampel "arrested"'
+New query calibrated!
+
+2023-09-18 06:47:16.596743
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jeffrey Klein "Sexual harassment"'
+Keyword Jeffrey Klein "Sexual harassment" is bad!
+
+2023-09-18 06:51:02.361286
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jeffrey Klein "residential"'
+Keyword Jeffrey Klein "residential" is bad!
+
+2023-09-18 06:51:13.115542
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jeffrey Klein "github"'
+Keyword Jeffrey Klein "github" is bad!
+
+2023-09-18 06:51:24.142387
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jeffrey Klein "appointments"'
+Keyword Jeffrey Klein "appointments" is bad!
+
+2023-09-18 06:51:34.918536
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jeffrey Klein "architecture"'
+Keyword Jeffrey Klein "architecture" is bad!
+
+2023-09-18 06:51:45.868338
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jeffrey Klein "recommend"'
+Keyword Jeffrey Klein "recommend" is bad!
+
+2023-09-18 06:51:56.906285
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Clay Johnson "Sexual harassment"'
+Keyword Clay Johnson "Sexual harassment" is bad!
+
+2023-09-18 06:57:12.492479
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Clay Johnson "pictures"'
+Keyword Clay Johnson "pictures" is bad!
+
+2023-09-18 06:57:23.494384
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Clay Johnson "uk"'
+Keyword Clay Johnson "uk" is bad!
+
+2023-09-18 06:57:34.485997
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Clay Johnson "overview"'
+Keyword Clay Johnson "overview" is bad!
+
+2023-09-18 06:57:45.511831
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Clay Johnson "tiktok"'
+Keyword Clay Johnson "tiktok" is bad!
+
+2023-09-18 06:57:56.522047
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Clay Johnson "twitter"'
+New query calibrated!
+
+2023-09-18 06:58:24.675953
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Donald Trump "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 06:58:41.353449
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'H. Brandt Ayers "Sexual harassment"'
+Keyword H. Brandt Ayers "Sexual harassment" is bad!
+
+2023-09-18 07:02:08.867656
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'H. Brandt Ayers "commentaries"'
+Keyword H. Brandt Ayers "commentaries" is bad!
+
+2023-09-18 07:02:19.864144
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'H. Brandt Ayers "assaulting"'
+Keyword H. Brandt Ayers "assaulting" is bad!
+
+2023-09-18 07:02:30.715003
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'H. Brandt Ayers "accused"'
+Keyword H. Brandt Ayers "accused" is bad!
+
+2023-09-18 07:02:41.513013
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'H. Brandt Ayers "assault"'
+Keyword H. Brandt Ayers "assault" is bad!
+
+2023-09-18 07:02:52.512391
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mark Mellor "Sexual harassment"'
+Keyword Mark Mellor "Sexual harassment" is bad!
+
+2023-09-18 07:07:05.970610
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mark Mellor "appointments"'
+Keyword Mark Mellor "appointments" is bad!
+
+2023-09-18 07:07:16.981148
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mark Mellor "aplc"'
+Keyword Mark Mellor "aplc" is bad!
+
+2023-09-18 07:07:27.948673
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mark Mellor "reviews"'
+Keyword Mark Mellor "reviews" is bad!
+
+2023-09-18 07:07:38.708283
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mark Mellor "photo"'
+Keyword Mark Mellor "photo" is bad!
+
+2023-09-18 07:07:49.704695
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mark Mellor "slideshare"'
+Keyword Mark Mellor "slideshare" is bad!
+
+2023-09-18 07:08:00.685800
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sean Hutchison "Sexual harassment"'
+Keyword Sean Hutchison "Sexual harassment" is bad!
+
+2023-09-18 07:11:57.076432
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sean Hutchison "appointments"'
+Keyword Sean Hutchison "appointments" is bad!
+
+2023-09-18 07:12:08.052541
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sean Hutchison "accuses"'
+Keyword Sean Hutchison "accuses" is bad!
+
+2023-09-18 07:12:18.784861
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sean Hutchison "reported"'
+Keyword Sean Hutchison "reported" is bad!
+
+2023-09-18 07:12:29.539238
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sean Hutchison "woessner"'
+Keyword Sean Hutchison "woessner" is bad!
+
+2023-09-18 07:12:40.293490
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sean Hutchison "accused"'
+Keyword Sean Hutchison "accused" is bad!
+
+2023-09-18 07:12:51.320774
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Knight Landesman "Sexual harassment"'
+Keyword Knight Landesman "Sexual harassment" is bad!
+
+2023-09-18 07:17:12.499743
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Knight Landesman "artreview"'
+Keyword Knight Landesman "artreview" is bad!
+
+2023-09-18 07:17:23.272418
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Knight Landesman "acquisition"'
+Keyword Knight Landesman "acquisition" is bad!
+
+2023-09-18 07:17:34.048025
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Knight Landesman "kunstkritikk"'
+Keyword Knight Landesman "kunstkritikk" is bad!
+
+2023-09-18 07:17:44.834168
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Knight Landesman "accusé"'
+Keyword Knight Landesman "accusé" is bad!
+
+2023-09-18 07:17:55.828109
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Knight Landesman "lovaas"'
+Keyword Knight Landesman "lovaas" is bad!
+
+2023-09-18 07:18:06.867986
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jonathan Schwartz "Sexual harassment"'
+Keyword Jonathan Schwartz "Sexual harassment" is bad!
+
+2023-09-18 07:21:13.300527
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jonathan Schwartz "appears"'
+Keyword Jonathan Schwartz "appears" is bad!
+
+2023-09-18 07:21:24.072886
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jonathan Schwartz "svg"'
+Keyword Jonathan Schwartz "svg" is bad!
+
+2023-09-18 07:21:35.076424
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jonathan Schwartz "lmtribune"'
+Keyword Jonathan Schwartz "lmtribune" is bad!
+
+2023-09-18 07:21:46.062163
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jonathan Schwartz "shooting"'
+Keyword Jonathan Schwartz "shooting" is bad!
+
+2023-09-18 07:21:56.598880
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jonathan Schwartz "twitter"'
+New query calibrated!
+
+2023-09-18 07:22:18.571088
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ben Affleck "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 07:22:40.787106
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Calvin Smyre "Sexual harassment"'
+Keyword Calvin Smyre "Sexual harassment" is bad!
+
+2023-09-18 07:27:26.984971
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Calvin Smyre "accuses"'
+Keyword Calvin Smyre "accuses" is bad!
+
+2023-09-18 07:27:37.780690
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Calvin Smyre "woman"'
+Keyword Calvin Smyre "woman" is bad!
+
+2023-09-18 07:27:48.794386
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Calvin Smyre "ambassadorship"'
+Keyword Calvin Smyre "ambassadorship" is bad!
+
+2023-09-18 07:27:59.557323
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Calvin Smyre "years"'
+Keyword Calvin Smyre "years" is bad!
+
+2023-09-18 07:28:10.308343
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Calvin Smyre "assault"'
+Keyword Calvin Smyre "assault" is bad!
+
+2023-09-18 07:28:21.060792
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Bill O'Reilly "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 07:28:38.150525
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Bob Weinstein "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 07:29:00.181960
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Matt Lauer "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 07:29:16.326868
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert J. Alvarez "Sexual harassment"'
+Keyword Albert J. Alvarez "Sexual harassment" is bad!
+
+2023-09-18 07:34:21.349047
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert J. Alvarez "accuser"'
+Keyword Albert J. Alvarez "accuser" is bad!
+
+2023-09-18 07:34:32.761355
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert J. Alvarez "aides"'
+Keyword Albert J. Alvarez "aides" is bad!
+
+2023-09-18 07:34:43.548897
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert J. Alvarez "twitter"'
+Keyword Albert J. Alvarez "twitter" is bad!
+
+2023-09-18 07:34:54.549836
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert J. Alvarez "accusations"'
+Keyword Albert J. Alvarez "accusations" is bad!
+
+2023-09-18 07:35:05.337891
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Albert J. Alvarez "assault"'
+Keyword Albert J. Alvarez "assault" is bad!
+
+2023-09-18 07:35:16.107415
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andrea Ramsey "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 07:35:38.081852
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Francisco Ayala "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 07:53:04.961929
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ben Affleck "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 07:57:37.969309
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Knight Landesman "fullscreen"'
+Keyword Knight Landesman "fullscreen" is bad!
+
+2023-09-18 08:07:06.636879
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Cristina Garcia "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 08:07:34.676868
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Harry Knowles "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 10:46:33.038567
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "therealjohn_p instagram photos"'
+Keyword John Kenneally "therealjohn_p instagram photos" is bad!
+
+2023-09-18 10:46:44.012315
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "updates"'
+Keyword John Kenneally "updates" is bad!
+
+2023-09-18 10:46:54.784882
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "wicklownews report_white search"'
+Keyword John Kenneally "wicklownews report_white search" is bad!
+
+2023-09-18 10:47:05.763339
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "bubble"'
+Keyword John Kenneally "bubble" is bad!
+
+2023-09-18 10:47:16.525261
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "wicklownews"'
+Keyword John Kenneally "wicklownews" is bad!
+
+2023-09-18 10:47:27.489899
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "report_white search remove"'
+Keyword John Kenneally "report_white search remove" is bad!
+
+2023-09-18 10:47:38.472728
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "search"'
+Keyword John Kenneally "search" is bad!
+
+2023-09-18 10:47:48.994693
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "condensed"'
+Keyword John Kenneally "condensed" is bad!
+
+2023-09-18 10:47:59.979696
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "icon"'
+Keyword John Kenneally "icon" is bad!
+
+2023-09-18 10:48:10.964575
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "report_white"'
+Keyword John Kenneally "report_white" is bad!
+
+2023-09-18 10:48:21.758588
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "export_white"'
+Keyword John Kenneally "export_white" is bad!
+
+2023-09-18 10:48:32.774255
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "remove"'
+Keyword John Kenneally "remove" is bad!
+
+2023-09-18 10:48:43.762941
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "speech bubble condensed"'
+Keyword John Kenneally "speech bubble condensed" is bad!
+
+2023-09-18 10:48:54.764949
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "speech"'
+Keyword John Kenneally "speech" is bad!
+
+2023-09-18 10:49:05.921265
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "instagram"'
+Keyword John Kenneally "instagram" is bad!
+
+2023-09-18 10:49:17.046157
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "photos"'
+Keyword John Kenneally "photos" is bad!
+
+2023-09-18 10:49:28.035004
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Kenneally "updates icon export_white"'
+Keyword John Kenneally "updates icon export_white" is bad!
+
+2023-09-18 10:55:49.820569
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ben Affleck "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 10:56:12.530983
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Blake Farenthold "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 10:56:34.853862
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andrea Ramsey "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 11:38:20.260375
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Hockenberry "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 11:38:47.615909
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Travis Kalanick "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 11:47:23.650664
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Bobby Scott "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 11:51:35.615568
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "wes anderson netflix movies"'
+Keyword Andy Henry "wes anderson netflix movies" is bad!
+
+2023-09-18 11:51:46.647821
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "henry sugar trailer"'
+Keyword Andy Henry "henry sugar trailer" is bad!
+
+2023-09-18 11:51:57.408661
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "res"'
+Keyword Andy Henry "res" is bad!
+
+2023-09-18 11:52:08.482383
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "korean"'
+Keyword Andy Henry "korean" is bad!
+
+2023-09-18 11:52:19.294632
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "sugar"'
+Keyword Andy Henry "sugar" is bad!
+
+2023-09-18 11:52:30.341878
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "edge"'
+Keyword Andy Henry "edge" is bad!
+
+2023-09-18 11:52:41.104732
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "veteran"'
+Keyword Andy Henry "veteran" is bad!
+
+2023-09-18 11:52:52.149590
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "river edge korean war veteran"'
+Keyword Andy Henry "river edge korean war veteran" is bad!
+
+2023-09-18 11:53:03.122683
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "high"'
+Keyword Andy Henry "high" is bad!
+
+2023-09-18 11:53:13.986094
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "movies"'
+Keyword Andy Henry "movies" is bad!
+
+2023-09-18 11:53:24.971287
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "trailer"'
+Keyword Andy Henry "trailer" is bad!
+
+2023-09-18 11:53:35.700836
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "wes"'
+Keyword Andy Henry "wes" is bad!
+
+2023-09-18 11:53:46.472115
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "netflix"'
+Keyword Andy Henry "netflix" is bad!
+
+2023-09-18 11:53:57.514026
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "premium"'
+Keyword Andy Henry "premium" is bad!
+
+2023-09-18 11:54:08.549134
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "andy henry photos"'
+Keyword Andy Henry "andy henry photos" is bad!
+
+2023-09-18 11:54:20.130343
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "premium high res pictures"'
+Keyword Andy Henry "premium high res pictures" is bad!
+
+2023-09-18 11:54:30.659446
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "anderson"'
+Keyword Andy Henry "anderson" is bad!
+
+2023-09-18 11:54:41.660736
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "war"'
+Keyword Andy Henry "war" is bad!
+
+2023-09-18 11:54:53.460296
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "photos"'
+Keyword Andy Henry "photos" is bad!
+
+2023-09-18 11:55:04.477966
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Andy Henry "river"'
+Keyword Andy Henry "river" is bad!
+
+2023-09-18 11:59:48.830334
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Adam Venit "assault terry crews"'
+Keyword Adam Venit "assault terry crews" is bad!
+
+2023-09-18 11:59:59.836259
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Adam Venit "crews"'
+New query calibrated!
+
+2023-09-18 12:00:16.457694
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Donovan McNabb "Sexual harassment"'
+New query calibrated!
+
+2023-09-18 12:00:38.184885
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alex Jones "Sexual harassment"'
+New query calibrated!
