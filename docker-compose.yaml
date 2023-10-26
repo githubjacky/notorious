@@ -1,13 +1,13 @@
 version: '3.8'
 services:
   collect_trend:
-    image: 0jacky/notorious_cls
+    image: 0jacky/notorious_cls:latest
     build:
       dockerfile: ./Dockerfile
       context: .
       args:
-        UID: $UID
-        GID: $GID
+        UID: $USERID
+        GID: $GROUPID
         USER: $DOCKER_USER
     container_name: collect_google_trend
     volumes:

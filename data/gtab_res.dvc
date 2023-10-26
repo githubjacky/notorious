@@ -1,0 +1,6 @@
+outs:
+- md5: 1ed97defa60799e498dea24ada7bfada.dir
+  size: 538648
+  nfiles: 137
+  hash: md5
+  path: gtab_res

@@ -77,7 +77,8 @@ class GTAB:
                 for f in glob.glob(os.path.join(default_path, "output", "google_anchorbanks", "*.tsv")):
                     shutil.copyfile(f, os.path.join(self.dir_path, "output", "google_anchorbanks", os.path.basename(f)))
             else:
-                print("Directory already exists, loading data from it.")
+                pass
+                # print("Directory already exists, loading data from it.")
 
         logger.info(f"gtab: Using directory '{self.dir_path}'")
         if from_cli:
@@ -935,9 +936,10 @@ class GTAB:
             if self._error_flag:
                 self._print_and_log("There was an error. Please check the log file.")
         else:
-            print(
-                "GTAB with such parameters already exists! Load it with 'set_active_gtab(filename)' or rename/delete it"
-                " to create another one with this name.")
+            pass
+            # print(
+            #     "GTAB with such parameters already exists! Load it with 'set_active_gtab(filename)' or rename/delete it"
+            #     " to create another one with this name.")
 
         self._log_con.close()
 

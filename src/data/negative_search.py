@@ -20,7 +20,7 @@ class NegativeKW_Collector():
     def __init__(self,
                  n_url: int,
                  sleep: int,
-                 sentiment_model: str, 
+                 sentiment_model: str,
                  extract_model: str
                  ):
         self.n_url = n_url

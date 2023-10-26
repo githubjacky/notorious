@@ -6,6 +6,7 @@ from omegaconf import DictConfig
 import orjson
 from pathlib import Path
 from typing import List
+import time
 from tqdm import tqdm
 import sys
 
@@ -31,14 +32,19 @@ class TrendSearch():
             .split('\n')
         )[:-1]
 
-        self.keyword_list = [
-            i + " " + "\"" + suffix + "\""
-            for i in list(set(predator_list))
-        ]
+        self.keyword_list = (
+            [
+                i + " " + "\"" + suffix + "\""
+                for i in list(set(predator_list))
+            ]
+            if suffix is not None
+            else
+            list(set(predator_list))
+        )
 
         self.geo = geo
         self.period = period
-        self.suffix = suffix
+        self.suffix = suffix if suffix is not None else "original"
         
         self.collector = NegativeKW_Collector(
             n_url,
@@ -50,7 +56,9 @@ class TrendSearch():
         self.extract_model = extract_model.split('/')[1]
 
     def setup(self, init_path: str = "gtab_config"):
-
+        """
+        Setup GTAB class for scraping google trends.
+        """
         anchor_dir = Path(f"{init_path}/output/google_anchorbanks")
         anchor_file = "_".join((
             f"google_anchorbank_geo={self.geo}",
@@ -94,15 +102,15 @@ class TrendSearch():
 
 
     def calibrate_instance(self, keyword: str):
-        if keyword in self.invalid_keywords:
-            raise KeyError("invalid keyword")
-        else:
-            return (
-                self.t
-                .new_query(keyword)['max_ratio']
-                .resample('M')
-                .mean()
-            )
+        # if keyword not in self.invalid_keywords:
+        i = 0
+        while i < 5:
+            try:
+                return self.t.new_query(keyword)['max_ratio']
+            except:
+                i += 1
+                time.sleep(1)
+        raise KeyError("invalid keyword")
 
     def calibrate_and_write(self, keyword: str, output_path: Path):
         status = 0
@@ -135,7 +143,10 @@ class TrendSearch():
 
         return status
 
-    def calibrate_batch(self, sleep: float = 5.):
+    def calibrate_batch(self, sleep: float = 5., 
+                        fetch_keyword = True, 
+                        result_dir: Path = Path(f"data/gtab_res")
+                        ):
         logger.remove()
         log_info = Path("log/gtab_info.log")
         log_warn = Path("log/gtab_warn.log")
@@ -146,7 +157,6 @@ class TrendSearch():
         logger.add(log_warn, level='WARNING')
 
         geo = "worldwide" if self.geo == "" else self.geo
-        result_dir = Path(f"data/preprocess")
 
         self.t.set_options(
             gtab_config = {"sleep": sleep},
@@ -157,14 +167,14 @@ class TrendSearch():
             output_dir = (
                 result_dir
                 /
-                f"{predator}/gtab_result/{self.suffix}"
+                f"{self.suffix}/{predator}"
             )
             output_dir.mkdir(parents=True, exist_ok=True)
             output_path = output_dir / f"{geo}_{self.period}.json"
 
             if not output_path.exists():
                 status = self.calibrate_and_write(keyword, output_path)
-                if status == -1:
+                if status == -1 and fetch_keyword:
                     negative_keywords = self.negative_search(predator)
                     i = 0
                     while status == -1 and i < len(negative_keywords):
@@ -182,8 +192,8 @@ class TrendSearch():
                 else:
                     with Path('env/valid_result.txt').open('a') as f:
                         f.write(predator + '\n')
-
-
+            else:
+                logger.info(f"calibrate result has already existed: {keyword}")
 
 
 @hydra.main(config_path="../../config", config_name="main", version_base=None)
@@ -201,7 +211,11 @@ def main(cfg: DictConfig):
         cfg.negative_search.extract_model
     )
     engine.setup(cfg.gtab.init_path)
-    engine.calibrate_batch(cfg.gtab.sleep)
+    engine.calibrate_batch(
+        cfg.gtab.sleep, 
+        cfg.gtab.fetch_keyword,
+        Path(cfg.gtab.gtab_res_dir)
+    )
 
 
 if __name__ == "__main__":

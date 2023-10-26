@@ -17,6 +17,8 @@ gtab:
       - 2016-01-01
       - 2018-07-31
   sleep: 5.
+  fetch_keyword: False
+  gtab_res_dir: data/gtab_res
 
 negative_search:
   sleep: 60
