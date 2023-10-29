@@ -9,8 +9,9 @@ data:
 
 gtab:
   keyword_path: data/raw/victim_list_01252023.xlsx
-  sheet: S
-  suffix: Sexual harassment
+  target: victim
+  sheet: Rj
+  suffix:
   init_path: gtab_config
   geo: worldwide
   period:
@@ -18,7 +19,7 @@ gtab:
       - 2018-07-31
   sleep: 5.
   fetch_keyword: False
-  gtab_res_dir: data/gtab_res
+  gtab_res_dir: data/gtab_res/victim
 
 negative_search:
   sleep: 60

@@ -7958,3 +7958,1593 @@ New query calibrated!
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
 New query 'Harvey Weinstein'
 New query calibrated!
+
+2023-10-26 18:18:12.372037
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jamie Leigh Hogan'
+New query calibrated!
+
+2023-10-26 18:18:45.339028
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Joy Villa'
+New query calibrated!
+
+2023-10-26 18:19:03.125535
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Cesar Sanchez-Guzman'
+New query calibrated!
+
+2023-10-26 18:19:22.051961
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Rob Jacobson'
+New query calibrated!
+
+2023-10-26 18:19:45.309435
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Annabella Sciorra'
+New query calibrated!
+
+2023-10-26 18:20:02.501931
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Dasha Alexander'
+New query calibrated!
+
+2023-10-26 18:20:25.550729
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Devin Murphy'
+New query calibrated!
+
+2023-10-26 18:20:48.792714
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Diane'
+New query calibrated!
+
+2023-10-26 18:21:12.035573
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ashley Beckford'
+New query calibrated!
+
+2023-10-26 18:21:34.384074
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Isa Hackett'
+New query calibrated!
+
+2023-10-26 18:21:51.458365
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Julie Swetnick'
+New query calibrated!
+
+2023-10-26 18:22:14.706814
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alexandra Waterbury'
+New query calibrated!
+
+2023-10-26 18:22:36.893322
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Paz de la Huerta'
+New query calibrated!
+
+2023-10-26 18:22:53.924598
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Michael Zakar'
+New query calibrated!
+
+2023-10-26 18:23:22.218354
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jimmy Bennett'
+New query calibrated!
+
+2023-10-26 18:23:39.082251
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sara Rabuse'
+New query calibrated!
+
+2023-10-26 18:24:07.783205
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kristin Booth'
+New query calibrated!
+
+2023-10-26 18:24:24.342461
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Nimrod Reitman'
+New query calibrated!
+
+2023-10-26 18:24:52.912432
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kristen Gwynne'
+New query calibrated!
+
+2023-10-26 18:25:16.006050
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Josh Ardolf'
+New query calibrated!
+
+2023-10-26 18:25:38.688114
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kristen Meinzer'
+New query calibrated!
+
+2023-10-26 18:26:00.774514
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Benedicte Shipley'
+New query calibrated!
+
+2023-10-26 18:26:23.025548
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Simone Grimes'
+New query calibrated!
+
+2023-10-26 18:26:51.786778
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'M. Reese Everson'
+New query calibrated!
+
+2023-10-26 18:27:14.843150
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jordana Zeldin'
+New query calibrated!
+
+2023-10-26 18:27:37.446506
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jasmine Baker'
+New query calibrated!
+
+2023-10-26 18:27:59.879347
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gloria Walker'
+New query calibrated!
+
+2023-10-26 18:28:22.274241
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Tana Ganeva'
+New query calibrated!
+
+2023-10-26 18:28:45.472885
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Dana Loewy'
+New query calibrated!
+
+2023-10-26 18:29:13.229619
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kellie Boyle'
+New query calibrated!
+
+2023-10-26 18:29:30.098317
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alan Arkin'
+New query calibrated!
+
+2023-10-26 18:29:47.113148
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Nancy Rapoport'
+New query calibrated!
+
+2023-10-26 18:30:16.095101
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary'
+New query calibrated!
+
+2023-10-26 18:30:39.443516
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Helena Donahue'
+New query calibrated!
+
+2023-10-26 18:31:02.186072
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kaitlyn Terpstra'
+New query calibrated!
+
+2023-10-26 18:31:25.112320
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Natasha Stoynoff'
+New query calibrated!
+
+2023-10-26 18:31:42.115866
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Elisabeth McAvoy'
+New query calibrated!
+
+2023-10-26 18:32:05.363466
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-26 18:32:17.294775
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-26 18:32:28.871291
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-26 18:32:40.431542
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-26 18:32:52.015076
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-26 18:33:03.637460
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Quinn Norton'
+New query calibrated!
+
+2023-10-26 18:33:20.519940
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kate Kelly'
+New query calibrated!
+
+2023-10-26 18:33:37.192609
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Terry Crews'
+New query calibrated!
+
+2023-10-26 18:33:54.292887
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Burgess'
+New query calibrated!
+
+2023-10-26 18:34:11.229845
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Erie Meyer'
+New query calibrated!
+
+2023-10-26 18:34:33.839279
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Summer Zervos'
+New query calibrated!
+
+2023-10-26 18:34:50.792545
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Wendy Miller'
+New query calibrated!
+
+2023-10-26 18:35:14.294613
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Britt Hayes'
+New query calibrated!
+
+2023-10-26 18:35:37.119099
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Natassia Malthe'
+New query calibrated!
+
+2023-10-26 18:35:54.125557
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Daniel Fierro'
+New query calibrated!
+
+2023-10-26 18:36:11.019943
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jessica Leeds'
+New query calibrated!
+
+2023-10-26 18:36:27.967373
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gretchen Carlson'
+Keyword Gretchen Carlson is bad!
+
+2023-10-26 18:36:40.047506
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gretchen Carlson'
+Keyword Gretchen Carlson is bad!
+
+2023-10-26 18:36:51.905968
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gretchen Carlson'
+Keyword Gretchen Carlson is bad!
+
+2023-10-26 18:37:03.209582
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gretchen Carlson'
+Keyword Gretchen Carlson is bad!
+
+2023-10-26 18:37:15.076876
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gretchen Carlson'
+Keyword Gretchen Carlson is bad!
+
+2023-10-26 18:37:26.966169
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kerry Nolan'
+New query calibrated!
+
+2023-10-26 18:37:49.938878
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Meribah Knight'
+New query calibrated!
+
+2023-10-26 18:38:13.081793
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Wendy Sigal'
+New query calibrated!
+
+2023-10-26 18:38:42.173978
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Amanda Schmitt'
+New query calibrated!
+
+2023-10-26 18:39:05.104729
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Tanya Selvaratnam'
+New query calibrated!
+
+2023-10-26 18:39:22.001298
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Leah Litman'
+New query calibrated!
+
+2023-10-26 18:39:44.938484
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Eden Rohatensky'
+New query calibrated!
+
+2023-10-26 18:40:08.284639
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Debbie Schlussel'
+New query calibrated!
+
+2023-10-26 18:40:25.304940
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'James Frost-Winn'
+New query calibrated!
+
+2023-10-26 18:40:48.435281
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Wendy Walsh'
+New query calibrated!
+
+2023-10-26 18:41:05.535586
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-26 18:41:17.756533
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-26 18:41:29.380023
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-26 18:41:41.327636
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-26 18:41:53.200093
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-26 18:42:05.196922
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Page Zeringue'
+New query calibrated!
+
+2023-10-26 18:42:33.904018
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Zach Zakar'
+New query calibrated!
+
+2023-10-26 18:42:56.665321
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katie Brennan'
+New query calibrated!
+
+2023-10-26 18:43:13.736686
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Olivia Pera'
+New query calibrated!
+
+2023-10-26 18:43:42.207336
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jacqueline Mueller'
+New query calibrated!
+
+2023-10-26 18:44:04.596860
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roman Barrett'
+New query calibrated!
+
+2023-10-26 18:44:26.957859
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mac McClelland'
+New query calibrated!
+
+2023-10-26 18:44:49.064855
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Beach'
+New query calibrated!
+
+2023-10-26 18:45:11.396425
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Vera'
+New query calibrated!
+
+2023-10-26 18:45:34.159842
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jaime Ray Newman'
+New query calibrated!
+
+2023-10-26 18:45:50.967594
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Tatiana Maxwell'
+New query calibrated!
+
+2023-10-26 18:46:14.038558
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kallie Plagge'
+New query calibrated!
+
+2023-10-26 18:46:30.530014
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Cathy Heller'
+New query calibrated!
+
+2023-10-26 18:46:53.011279
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mindy McGillivray'
+New query calibrated!
+
+2023-10-26 18:47:09.582106
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Monty Hooper'
+New query calibrated!
+
+2023-10-26 18:47:31.687516
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Beverly Young Nelson'
+New query calibrated!
+
+2023-10-26 18:47:48.224904
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jazmine Walker'
+New query calibrated!
+
+2023-10-26 18:48:16.103201
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Salma Hayek'
+New query calibrated!
+
+2023-10-26 18:48:37.852280
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'E. Jean Carroll'
+New query calibrated!
+
+2023-10-26 18:49:05.980178
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Margaret'
+New query calibrated!
+
+2023-10-26 18:49:28.135670
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robyn Sinclair'
+New query calibrated!
+
+2023-10-26 18:49:44.785941
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ariana Kukors'
+New query calibrated!
+
+2023-10-26 18:50:01.994115
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sarah Lozano'
+New query calibrated!
+
+2023-10-26 18:50:31.012345
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Diana Bentley'
+New query calibrated!
+
+2023-10-26 18:50:54.033894
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Valerie Werder'
+New query calibrated!
+
+2023-10-26 18:51:22.276808
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Taber'
+New query calibrated!
+
+2023-10-26 18:51:39.507280
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Karena Virginia'
+New query calibrated!
+
+2023-10-26 18:51:56.705830
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Rachel Crooks'
+New query calibrated!
+
+2023-10-26 18:52:13.703427
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Dominique Huett'
+New query calibrated!
+
+2023-10-26 18:52:30.601805
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Maranda Richmond'
+New query calibrated!
+
+2023-10-26 18:52:47.474918
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Rachel'
+New query calibrated!
+
+2023-10-26 18:53:10.333297
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Suki Kim'
+New query calibrated!
+
+2023-10-26 18:53:27.112091
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gabrielle Schaefer'
+New query calibrated!
+
+2023-10-26 18:53:50.052168
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Bridget Sullivan'
+New query calibrated!
+
+2023-10-26 18:54:12.657972
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Christine O.C. Miller'
+New query calibrated!
+
+2023-10-26 18:54:36.311011
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Angelina Jolie'
+New query calibrated!
+
+2023-10-26 18:54:59.271630
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Becky Gray'
+New query calibrated!
+
+2023-10-26 18:55:22.211680
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Star Simpson'
+New query calibrated!
+
+2023-10-26 18:55:39.512481
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jason Fedele'
+New query calibrated!
+
+2023-10-26 18:55:56.717637
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Sarah Schacht'
+New query calibrated!
+
+2023-10-26 18:56:25.081505
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Tasha Dixon'
+New query calibrated!
+
+2023-10-26 18:56:42.025708
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Cheryl Yeoh'
+New query calibrated!
+
+2023-10-26 18:56:59.282861
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Heil'
+New query calibrated!
+
+2023-10-26 18:57:16.593374
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Lauren'
+New query calibrated!
+
+2023-10-26 18:57:39.425256
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Anastasia Taylor-Lind'
+New query calibrated!
+
+2023-10-26 18:58:07.996680
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Deborah Ramirez'
+New query calibrated!
+
+2023-10-26 18:58:30.861681
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Hilarie Burton'
+New query calibrated!
+
+2023-10-26 18:58:47.603962
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Nicole Eastman'
+New query calibrated!
+
+2023-10-26 18:59:16.711414
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Brooke Nevils'
+New query calibrated!
+
+2023-10-26 18:59:45.688475
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Tina Johnson'
+New query calibrated!
+
+2023-10-26 19:00:02.791339
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Zoe Brock'
+New query calibrated!
+
+2023-10-26 19:00:20.196812
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Michelle Manning Barish'
+New query calibrated!
+
+2023-10-26 19:00:37.298569
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Heather'
+New query calibrated!
+
+2023-10-26 19:01:01.469569
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jami Cantor'
+New query calibrated!
+
+2023-10-26 19:01:18.768882
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Lauryn Schroeder'
+New query calibrated!
+
+2023-10-26 19:01:41.752465
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Chloe Melas'
+New query calibrated!
+
+2023-10-26 19:01:58.809487
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Paige Carnes'
+New query calibrated!
+
+2023-10-26 19:02:21.856654
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Amanda Rue'
+New query calibrated!
+
+2023-10-26 19:02:44.177418
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Grace'
+New query calibrated!
+
+2023-10-26 19:03:06.181553
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Rose McGowan'
+New query calibrated!
+
+2023-10-26 19:03:27.949631
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jennifer Murphy'
+New query calibrated!
+
+2023-10-26 19:03:44.628111
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Heather Graham'
+New query calibrated!
+
+2023-10-26 19:04:01.385975
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Susan J. Fowler'
+New query calibrated!
+
+2023-10-26 19:04:17.763575
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Trish Fagan'
+New query calibrated!
+
+2023-10-26 19:04:39.440405
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Veronica Pike Kennedy'
+New query calibrated!
+
+2023-10-26 19:05:01.499317
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mimi Haleyi'
+New query calibrated!
+
+2023-10-26 19:05:17.802061
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Lysette Anthony'
+New query calibrated!
+
+2023-10-26 19:05:33.898910
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Louisette Geiss'
+New query calibrated!
+
+2023-10-26 19:05:49.952057
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Terry Karl'
+New query calibrated!
+
+2023-10-26 19:06:12.377518
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Terron Wood'
+New query calibrated!
+
+2023-10-26 19:06:33.757928
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'John Doe'
+New query calibrated!
+
+2023-10-26 19:06:52.987816
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mira Sorvino'
+New query calibrated!
+
+2023-10-26 19:07:11.196436
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Delilah Burke'
+New query calibrated!
+
+2023-10-26 19:07:35.683522
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Olivia Munn'
+New query calibrated!
+
+2023-10-26 19:07:53.662142
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gwyneth Paltrow'
+New query calibrated!
+
+2023-10-26 19:08:12.828308
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Marsha Callahan'
+New query calibrated!
+
+2023-10-26 19:08:37.311140
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Vonda Dyer'
+New query calibrated!
+
+2023-10-26 19:08:53.710778
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Annamarie Tendler'
+New query calibrated!
+
+2023-10-26 19:09:10.781994
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jorina King'
+New query calibrated!
+
+2023-10-26 19:09:27.687083
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gloria Thacker Deason'
+New query calibrated!
+
+2023-10-26 19:09:49.961641
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jessica Pratt'
+New query calibrated!
+
+2023-10-26 19:10:12.138379
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Leigh Corfman'
+New query calibrated!
+
+2023-10-26 19:10:28.513289
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jessica Drake'
+New query calibrated!
+
+2023-10-26 19:10:46.421683
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mandy June Turpin'
+New query calibrated!
+
+2023-10-26 19:11:08.262153
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Stephanie Sinclair'
+New query calibrated!
+
+2023-10-26 19:11:30.693899
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Valerie Sulfaro'
+New query calibrated!
+
+2023-10-26 19:11:59.599807
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Hugo Tillman'
+New query calibrated!
+
+2023-10-26 19:12:24.107668
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Rhett Rowan'
+New query calibrated!
+
+2023-10-26 19:12:50.778510
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Pat'
+New query calibrated!
+
+2023-10-26 19:13:13.739727
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Erica Vladimer'
+New query calibrated!
+
+2023-10-26 19:13:36.520387
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-26 19:13:48.287134
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-26 19:13:59.876290
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-26 19:14:11.196960
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-26 19:14:22.798437
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-26 19:14:34.437915
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-26 19:14:46.674627
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-26 19:14:58.554086
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-26 19:15:10.434574
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-26 19:15:22.109866
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-26 19:15:33.687176
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jill Harth'
+New query calibrated!
+
+2023-10-26 19:15:50.622005
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kim'
+New query calibrated!
+
+2023-10-26 19:16:13.451171
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ninni Laaksonen'
+New query calibrated!
+
+2023-10-26 19:16:29.760702
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Lucia Evans'
+New query calibrated!
+
+2023-10-26 19:16:46.164054
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Alissa McKendrick'
+New query calibrated!
+
+2023-10-26 19:17:07.936077
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ben Ryan'
+New query calibrated!
+
+2023-10-26 19:17:24.538637
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Zoey Dunne'
+New query calibrated!
+
+2023-10-26 19:17:46.275512
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'April Dawn'
+New query calibrated!
+
+2023-10-26 19:18:02.335167
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ryan Locke'
+New query calibrated!
+
+2023-10-26 19:18:19.175056
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jules Woodson'
+New query calibrated!
+
+2023-10-26 19:18:36.176394
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Cassandra Searles'
+New query calibrated!
+
+2023-10-26 19:18:53.052426
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Debbie Wesson Gibson'
+New query calibrated!
+
+2023-10-26 19:19:15.309836
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mark Ricketson'
+New query calibrated!
+
+2023-10-26 19:19:37.586403
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Susan'
+New query calibrated!
+
+2023-10-26 19:20:00.251789
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Dahlia Lithwick'
+New query calibrated!
+
+2023-10-26 19:20:22.207916
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gary Funkhouser'
+New query calibrated!
+
+2023-10-26 19:20:38.652615
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Michael Egan'
+New query calibrated!
+
+2023-10-26 19:20:54.954386
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Natasha Henstridge'
+New query calibrated!
+
+2023-10-26 19:21:11.631746
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Liliana Segura'
+New query calibrated!
+
+2023-10-26 19:21:33.128786
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Jehmu Greene'
+New query calibrated!
+
+2023-10-26 19:21:50.350453
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Amy Dorris'
+New query calibrated!
+
+2023-10-26 19:22:13.494681
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Michelle Herrera'
+New query calibrated!
+
+2023-10-26 19:22:35.817512
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gena Richardson'
+New query calibrated!
+
+2023-10-26 19:22:58.850311
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Robyn Byrd'
+New query calibrated!
+
+2023-10-26 19:23:15.858762
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Lauren Greene'
+New query calibrated!
+
+2023-10-26 19:23:32.449988
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katharine Towne'
+New query calibrated!
+
+2023-10-26 19:23:49.548446
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Bobby Roache'
+New query calibrated!
+
+2023-10-26 19:24:12.664973
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Caroline Heldman'
+New query calibrated!
+
+2023-10-26 19:24:29.799254
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Scottie Nell Hughes'
+New query calibrated!
+
+2023-10-26 19:24:46.816575
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Phyllis Smith'
+New query calibrated!
+
+2023-10-26 19:25:03.458717
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Uma Thurman'
+New query calibrated!
+
+2023-10-26 19:25:38.503281
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kristin Anderson'
+New query calibrated!
+
+2023-10-26 19:25:55.369023
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Temple Taggart McDowell'
+New query calibrated!
+
+2023-10-26 19:26:18.147402
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Eri Sasaki'
+New query calibrated!
+
+2023-10-26 19:26:34.802703
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Kathleen Treseder'
+New query calibrated!
+
+2023-10-26 19:26:57.974166
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Christine Blasey Ford'
+New query calibrated!
+
+2023-10-26 19:27:21.315825
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Amanda Segel'
+New query calibrated!
+
+2023-10-26 19:27:38.138555
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ambra Battilana Gutierrez'
+New query calibrated!
+
+2023-10-26 19:27:55.417450
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Laura Gottesdiener'
+New query calibrated!
+
+2023-10-26 19:28:18.149631
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Tessa Goss'
+New query calibrated!
+
+2023-10-26 19:28:40.137992
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Ariella Pizarro'
+New query calibrated!
+
+2023-10-26 19:29:03.207186
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Hannah Miller'
+New query calibrated!
+
+2023-10-28 09:16:17.658674
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:16:29.339600
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:16:40.662901
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:16:52.383324
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:17:04.245216
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:17:15.972762
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Gretchen Carlson'
+New query calibrated!
+
+2023-10-28 09:17:51.225457
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:18:03.215579
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:18:14.961934
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:18:26.611395
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:18:38.466838
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:18:49.850137
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:19:01.712567
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:19:13.792383
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:19:25.231156
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:19:37.242268
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:19:48.902520
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:20:00.914680
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:20:12.666453
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:20:24.005496
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:20:35.572423
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:23:26.933896
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:23:38.810756
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:23:50.393369
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:24:01.726649
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:24:13.554862
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:24:24.872011
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:24:37.080288
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:24:48.682400
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:25:00.319414
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:25:11.884081
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:25:23.272410
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:25:35.395717
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:25:47.016557
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:25:58.637474
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:26:10.567663
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:26:22.497251
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:26:34.742205
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:26:46.322695
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:26:57.649382
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:27:09.655632
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:27:56.824308
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:28:08.170213
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:28:19.731801
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:28:31.785847
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:28:43.524764
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:28:55.177050
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:29:07.423433
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:29:19.096817
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:29:30.972526
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:29:42.850252
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:29:54.540926
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:30:06.813997
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:30:18.694509
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:30:30.036050
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:30:41.688799
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:30:53.650374
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:31:05.280471
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:31:17.162059
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:31:29.044328
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:31:40.919444
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:32:11.474416
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:32:22.818921
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:33:04.334117
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:33:16.254117
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:33:28.180982
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:33:39.767974
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:33:52.410866
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:34:04.447042
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:34:16.047042
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:34:27.627568
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:34:39.182536
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:34:50.776875
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:35:02.141305
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:35:13.485698
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:35:25.042928
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:35:36.953216
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:35:48.527531
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:35:59.847619
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:36:11.566615
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:36:23.190042
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:36:34.510645
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:36:46.384466
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:37:24.520915
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:37:36.397267
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:37:47.886291
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:37:59.435322
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:38:11.175613
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Shan’Ternera Williams'
+Keyword Shan’Ternera Williams is bad!
+
+2023-10-28 09:38:23.081522
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:38:35.032421
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:38:46.650543
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:38:58.227553
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:39:09.643684
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Mary Frances Pulizzi'
+Keyword Mary Frances Pulizzi is bad!
+
+2023-10-28 09:39:21.573670
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:39:33.320998
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:39:44.785236
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:39:56.857700
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:40:08.726940
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Naomi R. Shatz'
+Keyword Naomi R. Shatz is bad!
+
+2023-10-28 09:40:20.698941
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:40:32.746220
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:40:44.713503
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:40:57.170939
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!
+
+2023-10-28 09:41:09.096596
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Katherine O’Connell'
+Keyword Katherine O’Connell is bad!

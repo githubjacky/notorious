@@ -100,7 +100,6 @@ class TrendSearch():
 
         return keywords
 
-
     def calibrate_instance(self, keyword: str):
         # if keyword not in self.invalid_keywords:
         i = 0
@@ -201,7 +200,7 @@ def main(cfg: DictConfig):
     geo = "" if cfg.gtab.geo == "worldwide" else cfg.gtab.geo
 
     engine = TrendSearch(
-        get_predator_list(cfg.gtab.keyword_path, cfg.gtab.sheet),
+        get_predator_list(cfg.gtab.keyword_path, cfg.gtab.sheet, cfg.gtab.target),
         cfg.gtab.suffix,
         geo,
         cfg.gtab.period,
