@@ -17,6 +17,7 @@ understand what I have done.
 ## package
 - collect google trends: [gtab](https://github.com/epfl-dlab/GoogleTrendsAnchorBank)
 - search negative keyword: [keybert](https://github.com/MaartenGr/KeyBERT), [flair](https://github.com/flairNLP/flair)
+
 *For more information, check the pyproject.toml file*
 
 
@@ -34,18 +35,29 @@ dvc pull -r origin data/gtab_res
 
 
 ## docker container
+To build the image you need to either modify the *$USERID*, *$GROUPID* and *$DOCKERUSER*
+manually or crate an env file(ex: .env) and define those three variables.
 For more information, check out the compose file: docker-compose.yaml
 
 
 ## data processing
-- create monthly google trends records from original weekly frequency: notebooks/return_ri_rj.ipynb
-- adjust ait matrix to exclude the self-issue action: notebooks/adjust_ait.ipynb
+- create monthly google trends records from original weekly frequency
+```shell
+python script/return_ri_rj.py --write
+```
+- adjust ait matrix to exclude the self-issue action
+```shell
+python script/adjust_ait.py --write
+```
 - from *new_ri_sum_smooth* to *new_ri_for_regression*: notebooks/create_ri_for_regression.ipynb
+```shell
+python script/create_ri_for_regression.py --write
+```
 
 
 ## collect google trends records
 1. edit the cofiguration: config/main.yaml
-2. rund command 
+2. rund command
 ```shell
 python src/data/collect_trend
 ```
