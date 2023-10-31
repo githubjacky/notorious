@@ -199,3 +199,28 @@ def adjust_ait(input_data_path = 'data/processed/victim_list_01252023.xlsx',
             df_a_adjust.to_excel(writer, sheet_name = f'adjust_ait', index = False)
 
     return df_a_adjust
+
+def create_ri_for_regression(input_path: str = 'data/processed/victim_list_10302023.xlsx',
+                             predator_victim_info: str = 'S', 
+                             ri:str = 'new_Ri_sum_smooth',
+                             new_sheet: str = 'new_Ri_for_regression',
+                             write = True
+                            ):
+    df_predator_victim = pd.read_excel(
+        input_path, 
+        sheet_name = predator_victim_info
+    )
+    df_ri =  pd.read_excel(input_path, sheet_name = ri)
+
+
+    df = pd.merge(df_predator_victim, df_ri, on = ['predator', 'predator_id'])
+    df.drop(
+        df_predator_victim.columns.drop(['predator', 'predator_id', 'victim', 'victim_id ']), 
+        axis = 1,
+        inplace = True
+    )
+    if write:
+        with pd.ExcelWriter(input_path, mode='a') as writer:  
+            df.to_excel(writer, sheet_name = new_sheet, index = False)
+
+    return df
