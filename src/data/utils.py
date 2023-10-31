@@ -200,6 +200,7 @@ def adjust_ait(input_data_path = 'data/processed/victim_list_01252023.xlsx',
 
     return df_a_adjust
 
+
 def create_ri_for_regression(input_path: str = 'data/processed/victim_list_10302023.xlsx',
                              predator_victim_info: str = 'S', 
                              ri:str = 'new_Ri_sum_smooth',
@@ -212,13 +213,32 @@ def create_ri_for_regression(input_path: str = 'data/processed/victim_list_10302
     )
     df_ri =  pd.read_excel(input_path, sheet_name = ri)
 
+    df = pd.DataFrame({
+        'predator': df_predator_victim['predator'],
+        'predaotr_id': df_predator_victim['predator_id'],
+        'victim': df_predator_victim['victim'],
+        'victim_id': df_predator_victim['victim_id ']
+    })
 
-    df = pd.merge(df_predator_victim, df_ri, on = ['predator', 'predator_id'])
-    df.drop(
-        df_predator_victim.columns.drop(['predator', 'predator_id', 'victim', 'victim_id ']), 
-        axis = 1,
-        inplace = True
-    )
+    predator2freq = {}
+    for i in range(len(df)):
+        predator = df.iloc[i]['predator']
+        if  predator not in predator2freq:
+            predator2freq[predator] = [0]
+        else:
+            predator2freq[predator][0] += 1
+
+    target_cols = df_ri.columns.drop(['predator', 'predator_id'])
+    for col in target_cols:
+        predaotr2ri = {
+            df_ri.iloc[i]['predator']: df_ri.iloc[i][col]
+            for i in range(len(df_ri))
+        }
+        df[col] = [
+            predaotr2ri[predator]
+            for predator in df['predator']
+        ]
+        
     if write:
         with pd.ExcelWriter(input_path, mode='a') as writer:  
             df.to_excel(writer, sheet_name = new_sheet, index = False)
