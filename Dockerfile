@@ -5,11 +5,12 @@ ARG GID
 ARG USER
 
 # Update the package list, install sudo, create a non-root user, and grant password-less sudo permissions
-RUN apt update && \
-    apt install -y sudo && \
-    addgroup --gid $GID nonroot && \
-    adduser --uid $UID --gid $GID --disabled-password --gecos "" $USER && \
-    echo '$USER ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
+RUN groupadd --gid $GID $USER \
+    && useradd --uid $UID --gid $GID -m $USER \
+    && apt-get update \
+    && apt-get install -y sudo \
+    && echo $USER ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USER \
+    && chmod 0440 /etc/sudoers.d/$USER
 
 # no need to create virtual environment since the docker containr is already is
 ENV POETRY_HOME="/opt/poetry" \
@@ -24,7 +25,6 @@ RUN apt-get update && \
 RUN curl -sSL https://install.python-poetry.org | python3 - --version 1.6.0
 COPY pyproject.toml ./
 RUN poetry install
-RUN python -m spacy download en_core_web_sm
 EXPOSE 8888
 
 USER $USER

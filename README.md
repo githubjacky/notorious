@@ -43,15 +43,28 @@ For more information, check out the compose file: docker-compose.yaml
 ## data processing
 - create monthly google trends records from original weekly frequency
 ```shell
+# python scritp
 python script/return_ri_rj.py --write
+
+# docker compose(write the file as default)
+docker compose run --rm return_ri_rj
 ```
 - adjust ait matrix to exclude the self-issue action
 ```shell
+# python script
 python script/adjust_ait.py --write
+
+# docker compose(write the file as default)
+docker compose run --rm adjust_ait.py
 ```
 - from *new_ri_sum_smooth* to *new_ri_for_regression*: notebooks/create_ri_for_regression.ipynb
 ```shell
+# python script
 python script/create_ri_for_regression.py --write
+
+# docker compose(write the file as default)
+docker compose run --rm create_ri_for_regression.py
+
 ```
 
 

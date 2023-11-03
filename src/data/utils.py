@@ -100,7 +100,7 @@ def merge_all_gtab_res(input_dir: str = 'data/gtab_res/predator/original',
 
     return df
 
-def adjust_ait(input_data_path = 'data/processed/victim_list_01252023.xlsx',
+def adjust_ait(input_data_path = 'data/processed/victim_list_10302023.xlsx',
               predator_victim_sheet = '名單',
               ait_csv_path = 'data/raw/ait.csv',
               write = True
@@ -123,21 +123,16 @@ def adjust_ait(input_data_path = 'data/processed/victim_list_01252023.xlsx',
     victim2predator = {
         df_date.iloc[i]['victim']: df_date.iloc[i]['predator'] 
         for i in range(len(df_date))
-    }   
-    
-    victim2ancestor = {}
-    victim2affected = {}
+    }
+
+    victim2friend = {}
     for victim in victim2predator.keys():
         predator = victim2predator[victim]
-        possible_ancestors = predator2victim[predator]
+        possible_friends = predator2victim[predator]
         date = victim2date[victim]
-        victim2ancestor[victim] = []
-        victim2affected[victim] = []
-        for i in possible_ancestors:
-            if victim2date[i] < date: 
-                victim2ancestor[victim].append(i)
-            else:
-                if i != victim: victim2affected[victim].append(i)
+        victim2friend[victim] = []
+        for i in possible_friends:
+            if i != victim: victim2friend[victim].append(i)
 
     df_a = pd.read_csv(ait_csv_path)
     interval = [
@@ -146,42 +141,29 @@ def adjust_ait(input_data_path = 'data/processed/victim_list_01252023.xlsx',
         if i not in ['predator', 'predator_id', 'victim', 'victim_id ']
     ]
     victim2id = {
-    df_a.iloc[i]['victim']: df_a.iloc[i]['victim_id '] - 1
-    for i in range(len(df_a))
+        df_a.iloc[i]['victim']: df_a.iloc[i]['victim_id '] - 1
+        for i in range(len(df_a))
     }
 
-    victim2ancestor_id = {
-        victim: list(map(lambda x: victim2id[x], victim2ancestor[victim]))
-        for victim in victim2ancestor.keys()
+    victim2friend_id = {
+        victim: list(map(lambda x: victim2id[x], victim2friend[victim]))
+        for victim in victim2friend.keys()
     }
-    victim2affected_id = {
-        victim: list(map(lambda x: victim2id[x], victim2affected[victim]))
-        for victim in victim2ancestor.keys()
-    }
-    s_adjust = np.zeros((len(victim2date.keys()), len(interval)))
 
-    for idx_i, victim in enumerate(victim2date.keys()):
-        issue_date = victim2date[victim]
-        for idx_j, date in enumerate(interval):
-            if date > issue_date: s_adjust[idx_i][idx_j] = 1
-
-    s_adjust_ancestor = np.zeros((len(victim2date.keys()), len(interval)))
+    s = np.zeros((len(victim2date.keys()), len(interval)))
     for idx_i, victim in enumerate(victim2date.keys()):
         issue_date = victim2date[victim]
         for idx_j, date in enumerate(interval):
             if date > issue_date: 
-                s_adjust_ancestor[idx_i][idx_j] = 1
+                s[idx_i][idx_j] = 1
             elif date.year == issue_date.year and date.month == issue_date.month:
-                s_adjust_ancestor[idx_i][idx_j] = 1
+                s[idx_i][idx_j] = 1
 
-    s_adjust_affected = np.copy(s_adjust)
+    s_adjust = np.zeros((len(victim2date.keys()), len(interval)))
     for idx_i, victim in enumerate(victim2date.keys()):
-        if len(victim2ancestor_id[victim]) != 0:
-            for id in victim2ancestor_id[victim]:
-                s_adjust[idx_i] += s_adjust_ancestor[id]
-        if len(victim2affected_id[victim]) != 0:
-            for id in victim2affected_id[victim]:
-                s_adjust[idx_i] += s_adjust_affected[id]
+        if len(victim2friend_id[victim]) != 0:
+            for id in victim2friend_id[victim]:
+                s_adjust[idx_i] += s[id]
 
     df_a_adjust = pd.DataFrame({
         'predator': df_a['predator'],
@@ -195,7 +177,10 @@ def adjust_ait(input_data_path = 'data/processed/victim_list_01252023.xlsx',
         df_a_adjust[i] = [i[idx] for i in s_adjust]
 
     if write:
-        with pd.ExcelWriter(input_data_path, mode='a') as writer:  
+        with pd.ExcelWriter(input_data_path,
+                            mode='a',
+                            if_sheet_exists = 'replace'
+                            ) as writer:
             df_a_adjust.to_excel(writer, sheet_name = f'adjust_ait', index = False)
 
     return df_a_adjust
