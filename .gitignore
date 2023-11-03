@@ -1,7 +1,6 @@
 nohup.out
 # raw data
 data/raw/
-data/processed
 
 # log
 log/
