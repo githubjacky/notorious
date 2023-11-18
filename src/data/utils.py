@@ -95,7 +95,10 @@ def merge_all_gtab_res(input_dir: str = 'data/gtab_res/predator/original',
 
     df = pd.DataFrame(data, columns = [target, f'{target}_id'] + list(col_name_freq.keys()))
     if write:
-        with pd.ExcelWriter(output_data_path, mode='a') as writer:  
+        with pd.ExcelWriter(output_data_path,
+                            mode='a',
+                            if_sheet_exists = 'replace'
+                            ) as writer:
             df.to_excel(writer, sheet_name = f'new_{sheet}_{adjust_method}', index = False)
 
     return df

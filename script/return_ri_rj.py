@@ -15,17 +15,17 @@ def parse_args():
     args.add_argument(
         '--raw_data_path',
         type = str,
-        default = 'data/raw/victim_list_01252023.xlsx'
+        default = 'data/raw/victim_list_modified_robert.xlsx'
     )
     args.add_argument(
         '--output_data_path',
         type = str,
-        default = 'data/processed/victim_list_10302023 copy.xlsx'
+        default = 'data/processed/victim_list_modified_robert.xlsx'
     )
     args.add_argument(
         '--adjust_method',
         type = str,
-        default = 'mean'
+        default = 'sum'
     )
     args.add_argument(
         '--write',

@@ -9548,3 +9548,8 @@ Keyword Katherine O’Connell is bad!
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
 New query 'Katherine O’Connell'
 Keyword Katherine O’Connell is bad!
+
+2023-11-18 05:29:52.953622
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv
+New query 'Roy Moore'
+New query calibrated!

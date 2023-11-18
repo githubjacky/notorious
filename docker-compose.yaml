@@ -22,8 +22,26 @@ services:
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
-    # command: python /home/$DOCKER_USER/notorious_cls/src/data/collect_trend.py
-    command: bash
+    command: python /home/$DOCKER_USER/notorious_cls/src/data/collect_trend.py
+  jupyter:
+    image: 0jacky/notorious_cls:latest
+    container_name: collect_google_trend
+    volumes:
+      - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
+      - $PWD/log:/home/$DOCKER_USER/notorious_cls/log
+      - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
+      - $PWD/env:/home/$DOCKER_USER/notorious_cls/env
+      - $PWD/model:/home/$DOCKER_USER/notorious_cls/model
+      - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
+      - $PWD/notebooks/:/home/$DOCKER_USER/notorious_cls/notebooks
+      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+    ports:
+      - "8888:8888"
+    environment:
+      - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
+      - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
+      - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
+    command: jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --allow-root
   adjust_ait:
     image: 0jacky/notorious_cls:latest
     container_name: adjust_ait
@@ -47,4 +65,4 @@ services:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
       - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
       - $PWD/script:/home/$DOCKER_USER/notorious_cls/script
-    command: python script/create_ri_rj.py --write
+    command: python script/return_ri_rj.py --write

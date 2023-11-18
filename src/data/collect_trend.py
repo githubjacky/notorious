@@ -1,4 +1,3 @@
-from operator import neg
 from gtab import GTAB
 import hydra
 from loguru import logger
@@ -15,8 +14,8 @@ from negative_search import NegativeKW_Collector
 
 
 class TrendSearch():
-    def __init__(self, 
-                 predator_list: List[str], 
+    def __init__(self,
+                 predator_list: List[str],
                  suffix: str = "Sexual harassment",
                  geo: str = "", 
                  period: List[str] = ["2016-01-01", "2018-07-31"],
@@ -200,7 +199,8 @@ def main(cfg: DictConfig):
     geo = "" if cfg.gtab.geo == "worldwide" else cfg.gtab.geo
 
     engine = TrendSearch(
-        get_predator_list(cfg.gtab.keyword_path, cfg.gtab.sheet, cfg.gtab.target),
+        # get_predator_list(cfg.gtab.keyword_path, cfg.gtab.sheet, cfg.gtab.target),
+        ['Roy Moore'],
         cfg.gtab.suffix,
         geo,
         cfg.gtab.period,
@@ -211,7 +211,7 @@ def main(cfg: DictConfig):
     )
     engine.setup(cfg.gtab.init_path)
     engine.calibrate_batch(
-        cfg.gtab.sleep, 
+        cfg.gtab.sleep,
         cfg.gtab.fetch_keyword,
         Path(cfg.gtab.gtab_res_dir)
     )
