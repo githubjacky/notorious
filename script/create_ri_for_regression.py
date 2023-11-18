@@ -10,7 +10,7 @@ def parse_args():
     args.add_argument(
         '--input_path',
         type = str,
-        default = 'data/processed/victim_list_10302023.xlsx'
+        default = 'data/processed/victim_list_modified_robert.xlsx'
     )
     args.add_argument(
         '--predator_victim_info',

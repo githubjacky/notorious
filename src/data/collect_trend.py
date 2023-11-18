@@ -199,8 +199,7 @@ def main(cfg: DictConfig):
     geo = "" if cfg.gtab.geo == "worldwide" else cfg.gtab.geo
 
     engine = TrendSearch(
-        # get_predator_list(cfg.gtab.keyword_path, cfg.gtab.sheet, cfg.gtab.target),
-        ['Roy Moore'],
+        get_predator_list(cfg.gtab.keyword_path, cfg.gtab.sheet, cfg.gtab.target),
         cfg.gtab.suffix,
         geo,
         cfg.gtab.period,

@@ -10,7 +10,7 @@ def parse_args():
     args.add_argument(
         '--input_data_path',
         type = str,
-        default = 'data/processed/victim_list_10302023.xlsx'
+        default = 'data/processed/victim_list_modified_robert.xlsx'
     )
     args.add_argument(
         '--predator_victim_sheet',
@@ -26,6 +26,10 @@ def parse_args():
         '--write',
         action = 'store_true',
     )
+    args.add_argument(
+        '--sum',
+        action = 'store_true',
+    )
 
     return args.parse_args()
 
@@ -36,5 +40,6 @@ if __name__ == "__main__":
         args.input_data_path,
         args.predator_victim_sheet,
         args.ait_csv_path,
-        args.write
+        args.write,
+        args.sum
     )

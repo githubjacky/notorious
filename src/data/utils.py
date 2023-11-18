@@ -95,6 +95,7 @@ def merge_all_gtab_res(input_dir: str = 'data/gtab_res/predator/original',
 
     df = pd.DataFrame(data, columns = [target, f'{target}_id'] + list(col_name_freq.keys()))
     if write:
+        logger.info(f"add(replace) sheet: new_{sheet}_{adjust_method}")
         with pd.ExcelWriter(output_data_path,
                             mode='a',
                             if_sheet_exists = 'replace'
@@ -104,16 +105,17 @@ def merge_all_gtab_res(input_dir: str = 'data/gtab_res/predator/original',
     return df
 
 def adjust_ait(input_data_path = 'data/processed/victim_list_10302023.xlsx',
-              predator_victim_sheet = '名單',
-              ait_csv_path = 'data/raw/ait.csv',
-              write = True
-             ):
+               predator_victim_sheet = '名單',
+               ait_csv_path = 'data/raw/ait.csv',
+               write = True,
+               sum = False
+              ):
     df_date = pd.read_excel(input_data_path, sheet_name = predator_victim_sheet)
     victim2date = {
         df_date.iloc[i]['victim']: df_date.iloc[i]['time']
         for i in range(len(df_date))
     }
-    
+
     predator2victim = {}
     for i in range(len(df_date)):
         predator = df_date.iloc[i]['predator']
@@ -132,7 +134,6 @@ def adjust_ait(input_data_path = 'data/processed/victim_list_10302023.xlsx',
     for victim in victim2predator.keys():
         predator = victim2predator[victim]
         possible_friends = predator2victim[predator]
-        date = victim2date[victim]
         victim2friend[victim] = []
         for i in possible_friends:
             if i != victim: victim2friend[victim].append(i)
@@ -157,7 +158,7 @@ def adjust_ait(input_data_path = 'data/processed/victim_list_10302023.xlsx',
     for idx_i, victim in enumerate(victim2date.keys()):
         issue_date = victim2date[victim]
         for idx_j, date in enumerate(interval):
-            if date > issue_date: 
+            if date > issue_date:
                 s[idx_i][idx_j] = 1
             elif date.year == issue_date.year and date.month == issue_date.month:
                 s[idx_i][idx_j] = 1
@@ -167,6 +168,39 @@ def adjust_ait(input_data_path = 'data/processed/victim_list_10302023.xlsx',
         if len(victim2friend_id[victim]) != 0:
             for id in victim2friend_id[victim]:
                 s_adjust[idx_i] += s[id]
+
+    new_sheet_name = 'adjust_ait'
+    if sum:
+        new_sheet_name = 'sum_adjust_ait'
+        logger.info(f'new sheet: {new_sheet_name}')
+
+        victim2section = {
+            df_date.iloc[i]['victim']: df_date.iloc[i]['section']
+            for i in range(len(df_date))
+        }
+        section2victim_id = {}
+        for i in range(len(df_date)):
+            section = df_date.iloc[i]['section']
+            victim = df_date.iloc[i]['victim']
+            if section not in section2victim_id:
+                section2victim_id[section] = [victim2id[victim]]
+            else:
+                section2victim_id[section].append(victim2id[victim])
+
+        victim2section_friend_id = {}
+        for victim in victim2predator.keys():
+            section = victim2section[victim]
+            possible_friends = section2victim_id[section]
+
+            victim2section_friend_id[victim] = []
+            for i in possible_friends:
+                if i not in victim2friend_id[victim] and i != victim2id[victim]:
+                    victim2section_friend_id[victim].append(i)
+
+        for idx_i, victim in enumerate(victim2date.keys()):
+            if len(victim2section_friend_id[victim]) != 0:
+                for id in victim2section_friend_id[victim]:
+                        s_adjust[idx_i] += s[id]
 
     df_a_adjust = pd.DataFrame({
         'predator': df_a['predator'],
@@ -184,7 +218,7 @@ def adjust_ait(input_data_path = 'data/processed/victim_list_10302023.xlsx',
                             mode='a',
                             if_sheet_exists = 'replace'
                             ) as writer:
-            df_a_adjust.to_excel(writer, sheet_name = f'adjust_ait', index = False)
+            df_a_adjust.to_excel(writer, sheet_name = new_sheet_name, index = False)
 
     return df_a_adjust
 
@@ -195,6 +229,7 @@ def create_ri_for_regression(input_path: str = 'data/processed/victim_list_10302
                              new_sheet: str = 'new_Ri_for_regression',
                              write = True
                             ):
+    logger.info(input_path)
     df_predator_victim = pd.read_excel(
         input_path, 
         sheet_name = predator_victim_info
@@ -228,7 +263,10 @@ def create_ri_for_regression(input_path: str = 'data/processed/victim_list_10302
         ]
         
     if write:
-        with pd.ExcelWriter(input_path, mode='a') as writer:  
+        with pd.ExcelWriter(input_path,
+                            mode='a',
+                            if_sheet_exists = 'replace'
+                            ) as writer:
             df.to_excel(writer, sheet_name = new_sheet, index = False)
 
     return df

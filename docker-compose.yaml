@@ -49,7 +49,7 @@ services:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
       - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
       - $PWD/script:/home/$DOCKER_USER/notorious_cls/script
-    command: python script/adjust_ait.py --write
+    command: python script/adjust_ait.py --write --sum
   create_ri_for_regression:
     image: 0jacky/notorious_cls:latest
     container_name: create_ri_for_regression
