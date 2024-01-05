@@ -1,7 +1,5 @@
-from gtab import GTAB
-import hydra
+from .gtab.core import GTAB
 from loguru import logger
-from omegaconf import DictConfig
 import orjson
 from pathlib import Path
 from typing import List
@@ -9,15 +7,14 @@ import time
 from tqdm import tqdm
 import sys
 
-from utils import get_predator_list
-from negative_search import NegativeKW_Collector
+from .negative_search import NegativeKW_Collector
 
 
 class TrendSearch():
     def __init__(self,
                  predator_list: List[str],
                  suffix: str = "Sexual harassment",
-                 geo: str = "", 
+                 geo: str = "",
                  period: List[str] = ["2016-01-01", "2018-07-31"],
                  n_url: int = 20,
                  search_sleep: int = 10,
@@ -44,7 +41,7 @@ class TrendSearch():
         self.geo = geo
         self.period = period
         self.suffix = suffix if suffix is not None else "original"
-        
+
         self.collector = NegativeKW_Collector(
             n_url,
             search_sleep,
@@ -99,14 +96,14 @@ class TrendSearch():
 
         return keywords
 
-    def calibrate_instance(self, keyword: str):
+    def calibrate_instance(self, keyword: str, max_retry: int = 5):
         # if keyword not in self.invalid_keywords:
-        i = 0
-        while i < 5:
+        retry = 0
+        while retry < max_retry:
             try:
                 return self.t.new_query(keyword)['max_ratio']
             except:
-                i += 1
+                retry += 1
                 time.sleep(1)
         raise KeyError("invalid keyword")
 
@@ -192,29 +189,3 @@ class TrendSearch():
                         f.write(predator + '\n')
             else:
                 logger.info(f"calibrate result has already existed: {keyword}")
-
-
-@hydra.main(config_path="../../config", config_name="main", version_base=None)
-def main(cfg: DictConfig):
-    geo = "" if cfg.gtab.geo == "worldwide" else cfg.gtab.geo
-
-    engine = TrendSearch(
-        get_predator_list(cfg.gtab.keyword_path, cfg.gtab.sheet, cfg.gtab.target),
-        cfg.gtab.suffix,
-        geo,
-        cfg.gtab.period,
-        cfg.negative_search.n_url,
-        cfg.negative_search.sleep,
-        cfg.negative_search.sentiment_model,
-        cfg.negative_search.extract_model
-    )
-    engine.setup(cfg.gtab.init_path)
-    engine.calibrate_batch(
-        cfg.gtab.sleep,
-        cfg.gtab.fetch_keyword,
-        Path(cfg.gtab.gtab_res_dir)
-    )
-
-
-if __name__ == "__main__":
-    main()

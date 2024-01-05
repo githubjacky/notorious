@@ -3,27 +3,12 @@ hydra:
     run:
       dir: .
 
+
+defaults:
+    - process: collect_trend
+    - _self_
+
+
 data:
   raw: data/raw/
   preprocess: data/preprocess
-
-gtab:
-  keyword_path: data/raw/victim_list_modified_robert.xlsx
-  # predator, victim
-  target: predator
-  sheet: Ri
-  suffix:
-  init_path: gtab_config
-  geo: worldwide
-  period:
-      - 2016-01-01
-      - 2018-07-31
-  sleep: 5.
-  fetch_keyword: False
-  gtab_res_dir: data/gtab_res/victim
-
-negative_search:
-  sleep: 60
-  n_url: 90
-  sentiment_model: sentiment
-  extract_model: Voicelab/vlt5-base-keywords

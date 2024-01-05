@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  collect_trend:
+  collect-trend:
     image: 0jacky/notorious_cls:latest
     build:
       dockerfile: ./Dockerfile
@@ -18,12 +18,13 @@ services:
       - $PWD/model:/home/$DOCKER_USER/notorious_cls/model
       - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
       - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+      - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     environment:
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
-    command: python /home/$DOCKER_USER/notorious_cls/src/data/collect_trend.py
-  jupyter:
+    command: python /home/$DOCKER_USER/notorious_cls/scripts/collect_trend.py
+  jupyter-lab:
     image: 0jacky/notorious_cls:latest
     container_name: collect_google_trend
     volumes:
@@ -42,27 +43,27 @@ services:
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
     command: jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --allow-root
-  adjust_ait:
+  adjust-ait:
     image: 0jacky/notorious_cls:latest
     container_name: adjust_ait
     volumes:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
       - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
-      - $PWD/script:/home/$DOCKER_USER/notorious_cls/script
+      - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     command: python script/adjust_ait.py --write --sum
-  create_ri_for_regression:
+  create-ri-for-regression:
     image: 0jacky/notorious_cls:latest
     container_name: create_ri_for_regression
     volumes:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
       - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
-      - $PWD/script:/home/$DOCKER_USER/notorious_cls/script
+      - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     command: python script/create_ri_for_regression.py --write
-  return_ri_rj:
+  return-ri-rj:
     image: 0jacky/notorious_cls:latest
     container_name: return_ri_rj
     volumes:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
       - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
-      - $PWD/script:/home/$DOCKER_USER/notorious_cls/script
+      - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     command: python script/return_ri_rj.py --write

@@ -42,7 +42,7 @@ class NegativeKW_Collector():
             logger.info("negative search: fetch url")
             urls = []
             for i in search(
-                predator, 
+                predator,
                 num_results = self.n_url, 
                 advanced = True,
                 sleep_interval=self.sleep
