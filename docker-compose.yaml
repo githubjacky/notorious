@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  collect-trend:
+  create-anchorbanks:
     image: 0jacky/notorious_cls:latest
     build:
       dockerfile: ./Dockerfile
@@ -9,6 +9,23 @@ services:
         UID: $UID
         GID: $GID
         USER: $DOCKER_USER
+    container_name: create_anchorbanks
+    volumes:
+      - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
+      - $PWD/log:/home/$DOCKER_USER/notorious_cls/log
+      - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
+      - $PWD/env:/home/$DOCKER_USER/notorious_cls/env
+      - $PWD/model:/home/$DOCKER_USER/notorious_cls/model
+      - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
+      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+      - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
+    environment:
+      - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
+      - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
+      - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
+    command: python /home/$DOCKER_USER/notorious_cls/scripts/create_anchorbanks.py
+  collect-trend:
+    image: 0jacky/notorious_cls:latest
     container_name: collect_google_trend
     volumes:
       - $PWD/config:/home/$DOCKER_USER/notorious_cls/config

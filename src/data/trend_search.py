@@ -31,7 +31,7 @@ class TrendSearch():
         self.keyword_list = (
             [
                 i + " " + "\"" + suffix + "\""
-                for i in list(set(predator_list))
+                for i in predator_list
             ]
             if suffix is not None
             else
@@ -55,29 +55,41 @@ class TrendSearch():
         """
         Setup GTAB class for scraping google trends.
         """
+        timeframe = " ".join(self.period)
         anchor_dir = Path(f"{init_path}/output/google_anchorbanks")
         anchor_file = "_".join((
             f"google_anchorbank_geo={self.geo}",
-            f"timeframe={self.period[0]} {self.period[1]}.tsv"
+            f"timeframe={timeframe}.tsv"
         ))
         anchor_path = anchor_dir / anchor_file
 
         t = GTAB(dir_path=init_path)
         if not anchor_path.exists():
-            t.set_options(pytrends_config={
-                "geo": "",
-                "time_frame": " ".join(self.period)
-            })
+            t.set_options(
+                pytrends_config={
+                    "geo": self.geo,
+                    "timeframe": timeframe
+                },
+            #     conn_config={
+            #         "proxies": ["http://103.151.20.131:80"]
+            #     }
+            )
             t.create_anchorbank()
 
         t.set_active_gtab(anchor_file)
         self.t = t
 
-    def negative_search(self, predator: str):
-        self.collector.setup(predator)
+    def negative_search(self, target: str):
+        """
+        Try to find a valid negative suffix, if we can't collect trend using
+        such keyword(keyword = suffix + name).
+
+        param target: is the name of either 'predator' or 'victim'
+        """
+        self.collector.setup(target)
         output_path = (
             self.collector.output_dir 
-            / 
+            /
             "_".join((
                 self.extract_model,
                 self.sentiment_model,

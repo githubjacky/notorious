@@ -1,5 +1,5 @@
 # {'GTAB': {'anchor_candidates_file': 'anchor_candidate_list.txt', 'num_anchor_candidates': 3500, 'num_anchors': 550, 'seed': 42, 'sleep': 0.5, 'thresh_offline': 10}}
-# {'PYTRENDS': {'cat': '0', 'geo': '', 'timeframe': '2016-01-01 2018-07-31'}}
+# {'PYTRENDS': {'geo': '', 'timeframe': '2016-01-01 2018-07-31', 'cat': '0'}}
 	google_query	max_ratio	max_ratio_lo	max_ratio_hi
 0	/m/02y1vz	9876.643129899761	8719.868103762317	11206.568598251695
 1	Youtube	3654.3579580629116	3269.950538910869	4090.3975383618695

@@ -1,5 +1,6 @@
 gtab:
   keyword_path: data/raw/victim_list_modified_robert.xlsx
+  s_path: data/raw/s.csv
   # predator, victim
   target: predator
   sheet: Ri
@@ -8,7 +9,7 @@ gtab:
   geo: worldwide
   period:
     - 2016-01-01
-    - 2018-07-31
+    - 2018-12-31
   sleep: 5.
   fetch_keyword: False
   gtab_res_dir: data/gtab_res/victim

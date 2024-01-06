@@ -6,10 +6,7 @@ from pathlib import Path
 from typing import Optional
 
 
-def get_target_list(input_path: str = "data/raw/victim_list_01252023.xlsx",
-                    sheet: str = "S",
-                    target: str = "predator"
-                   ):
+def get_target_list(source_path: str = "data/raw/s.csv", target: str = "predator"):
     """
     Get list of predator or victim
     """
@@ -19,12 +16,7 @@ def get_target_list(input_path: str = "data/raw/victim_list_01252023.xlsx",
         logger.info(f"{target} list has already exists")
         res = [i for i in output_path.read_text().split('\n')][:-1]
     else:
-        _res = (
-            pd
-            .read_excel(input_path, sheet_name=sheet)[target]
-            .to_list()
-        )
-        res = pd.unique(_res).tolist()
+        res = pd.unique(pd.read_csv(source_path)[target]).tolist()
 
         logger.info(f"save the {target} list")
         with output_path.open('w') as f:
@@ -134,15 +126,18 @@ class MergeUtil:
             columns = (
                 [self.target, f'{self.target}_id']
                 +
-                list(self.__col_name_freq.keys()))
+                list(self.__col_name_freq.keys())
             )
+        )
         if write:
             sheet = 'Ri' if self.target == 'predator' else 'Rj'
             logger.info(f"add(replace) sheet: new_{sheet}_{adjust_method}")
+
             with pd.ExcelWriter(output_data_path,
                                 mode='a',
                                 if_sheet_exists = 'replace'
                                 ) as writer:
+
                 df.to_excel(writer, sheet_name = f'new_{sheet}_{adjust_method}', index = False)
 
         return df
@@ -154,10 +149,15 @@ class MergeUtil:
                      sheet_name: Optional[str] = None
                      ):
         """
-        It's not the first time to merge the result, which means the function
+        Make sure it's not the first time to merge the result, which means the function
         is meant for extending the time period.
 
         param adjust_method: how to transform the weekly data to monthly frequency
         param sheet_name: which sheet to concat
         """
+        pass
+
+
+class RegUtil:
+    def __init__(self):
         pass

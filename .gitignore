@@ -1,8 +1,9 @@
 nohup.out
 # raw data
-data/raw/
+data/raw/*.xlsx
 
 data/processed.old
+gtab_config/output/google_anchorbanks_bak
 
 # log
 log/

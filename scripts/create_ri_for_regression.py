@@ -41,7 +41,7 @@ def create_ri_for_regression(input_path: str = 'data/processed/victim_list_10302
             predaotr2ri[predator]
             for predator in df['predator']
         ]
-        
+
     if write:
         with pd.ExcelWriter(input_path,
                             mode='a',
