@@ -9564,3 +9564,6 @@ Err: 3.9968028886505635e-15
 Total range: 1.9844434735791576e-06
 Saving anchorbank as 'gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-01-01 2018-07-31.tsv'...
 AnchorBank init done.
+
+2024-01-06 22:32:28.563182
+Start AnchorBank init for region  in timeframe 2016-01-01 2018-07-31...

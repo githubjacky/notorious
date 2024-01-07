@@ -5,7 +5,7 @@ hydra:
 
 
 defaults:
-    - process: collect_trend
+    - process: trend_search
     - _self_
 
 

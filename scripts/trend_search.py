@@ -3,6 +3,7 @@ sys.path.append(os.path.abspath(f"{os.getcwd()}"))
 
 import hydra
 from omegaconf import DictConfig
+from pathlib import Path
 
 from src.data.trend_search import TrendSearch
 from src.data.utils import get_target_list
@@ -14,8 +15,7 @@ def main(cfg: DictConfig):
 
     engine = TrendSearch(
         get_target_list(
-            cfg.process.gtab.keyword_path,
-            cfg.process.gtab.sheet,
+            cfg.process.gtab.s_path,
             cfg.process.gtab.target
         ),
         cfg.process.gtab.suffix,
@@ -27,12 +27,12 @@ def main(cfg: DictConfig):
         cfg.process.negative_search.extract_model
     )
     engine.setup(cfg.process.gtab.init_path)
-    print(engine.keyword_list)
-    # engine.calibrate_batch(
-    #     cfg.gtab.sleep,
-    #     cfg.gtab.fetch_keyword,
-    #     Path(cfg.gtab.gtab_res_dir)
-    # )
+    engine.calibrate_batch(
+        cfg.process.gtab.sleep,
+        cfg.process.gtab.fetch_keyword,
+        Path(cfg.process.gtab.gtab_res_dir),
+        cfg.process.gtab.continuous_mode
+    )
 
 
 if __name__ == "__main__":

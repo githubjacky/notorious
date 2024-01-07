@@ -1,196 +1,196 @@
-,predator,predator_id,victim,victim_id ,section,2015-01-01 00:00:00,2015-02-01 00:00:00,2015-03-01 00:00:00,2015-04-01 00:00:00,2015-05-01 00:00:00,2015-06-01 00:00:00,2015-07-01 00:00:00,2015-08-01 00:00:00,2015-09-01 00:00:00,2015-10-01 00:00:00,2015-11-01 00:00:00,2015-12-01 00:00:00,2016-01-01 00:00:00,2016-02-01 00:00:00,2016-03-01 00:00:00,2016-04-01 00:00:00,2016-05-01 00:00:00,2016-06-01 00:00:00,2016-07-01 00:00:00,2016-08-01 00:00:00,2016-09-01 00:00:00,2016-10-01 00:00:00,2016-11-01 00:00:00,2016-12-01 00:00:00,2017-01-01 00:00:00,2017-02-01 00:00:00,2017-03-01 00:00:00,2017-04-01 00:00:00,2017-05-01 00:00:00,2017-06-01 00:00:00,2017-07-01 00:00:00,2017-08-01 00:00:00,2017-09-01 00:00:00,2017-10-01 00:00:00,2017-11-01 00:00:00,2017-12-01 00:00:00,2018-01-01 00:00:00,2018-02-01 00:00:00,2018-03-01 00:00:00,2018-04-01 00:00:00,2018-05-01 00:00:00,2018-06-01 00:00:00,2018-07-01 00:00:00
-0,Sean Hannity,1,Debbie Schlussel,1,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-1,Eric Bolling,2,Caroline Heldman,2,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
-2,Charles Payne,3,Scottie Nell Hughes,3,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
-3,Harry Knowles,4,Jasmine Baker,4,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
-4,Lockhart Steele,5,Eden Rohatensky,5,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-5,Knight Landesman,6,Amanda Schmitt,6,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-6,Knight Landesman,6,Alissa McKendrick,7,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-7,Michael Hafford,7,Helena Donahue,8,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-8,Jann Wenner,8,Ben Ryan,9,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-9,Vince Ingenito,9,Kallie Plagge,10,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-10,Matt Lauer,10,Brooke Nevils,11,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-11,John Hockenberry,11,Suki Kim,12,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-12,Donovan McNabb,12,Jami Cantor,13,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-13,Jonathan Schwartz,13,Kerry Nolan,14,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-14,Don Hazen,14,Liliana Segura,15,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-15,Don Hazen,14,Kristen Gwynne,16,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-16,Don Hazen,14,Tana Ganeva,17,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-17,Mike Germano,15,Amanda Rue,18,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-18,Mike Germano,15,Gabrielle Schaefer,19,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-19,H. Brandt Ayers,16,Wendy Sigal,20,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-20,H. Brandt Ayers,16,Veronica Pike Kennedy,21,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-21,Roy Moore,17,Leigh Corfman,22,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-22,Roy Moore,17,Beverly Young Nelson,23,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-23,Roy Moore,17,Tina Johnson,24,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-24,Roy Moore,17,Becky Gray,25,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-25,Antonin Kratochvil,18,Anastasia Taylor-Lind,26,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-26,Antonin Kratochvil,18,Stephanie Sinclair,27,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-27,Nick Sauer,19,Kate Kelly,28,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-28,Mel Watt,20,Simone Grimes,29,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-29,Harvey Weinstein,21,Rose McGowan,30,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-30,Harvey Weinstein,21,Annabella Sciorra,31,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-31,Harvey Weinstein,21,Mira Sorvino,32,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-32,Harvey Weinstein,21,Salma Hayek,33,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-33,Harvey Weinstein,21,Lucia Evans,34,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-34,Harvey Weinstein,21,Paz de la Huerta,35,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-35,Harvey Weinstein,21,Gwyneth Paltrow,36,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-36,Harvey Weinstein,21,Mimi Haleyi,37,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-37,Harvey Weinstein,21,Dominique Huett,38,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-38,Harvey Weinstein,21,Natassia Malthe,39,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-39,Harvey Weinstein,21,Lysette Anthony,40,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-40,Harvey Weinstein,21,Angelina Jolie,41,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-41,Harvey Weinstein,21,Uma Thurman,42,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-42,Harvey Weinstein,21,Heather Graham,43,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-43,Harvey Weinstein,21,Zoe Brock,44,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-44,Harvey Weinstein,21,Louisette Geiss,45,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-45,Harvey Weinstein,21,Ambra Battilana Gutierrez,46,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-46,Eric Schneiderman,22,Michelle Manning Barish,47,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-47,Eric Schneiderman,22,Tanya Selvaratnam,48,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-48,Clay Johnson,23,Sarah Schacht,49,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-49,Clay Johnson,23,Erie Meyer,50,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-50,Cristina Garcia,24,Daniel Fierro,51,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
-51,Jeffrey Klein,25,Erica Vladimer,52,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-52,Corey Lewandowski,26,Joy Villa,53,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-53,Bobby Scott,27,M. Reese Everson,54,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-54,Ed Murray,28,Tatiana Maxwell,55,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-55,Dan Johnson,29,Maranda Richmond,56,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-56,Steven Wilder Striegel,30,Paige Carnes,57,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-57,Chase Finlay,31,Alexandra Waterbury,58,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-58,Asia Argento,32,Jimmy Bennett,59,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-59,Rick Day,33,Michael Zakar,60,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-60,Rick Day,33,Zach Zakar,61,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-61,Morgan Freeman,34,Alan Arkin,62,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-62,Morgan Freeman,34,Chloe Melas,63,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-63,Boyd Tinsley,35,James Frost-Winn,64,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-64,Ameer Vann,36,Rhett Rowan,65,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-65,John Kricfalusi,37,Robyn Byrd,66,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
-66,Richard DeVaul,38,Star Simpson,67,Business & Tech,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-67,Sam Isaly,39,Delilah Burke,68,Business & Tech,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-68,Robert Scoble,40,Quinn Norton,69,Business & Tech,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-69,Dave McClure,41,Cheryl Yeoh,70,Business & Tech,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-70,Travis Kalanick,42,Susan J. Fowler,71,Business & Tech,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-71,Avital Ronell,43,Nimrod Reitman,72,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-72,Mark Mellor,44,Katherine O’Connell,73,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
-73,William Jacoby,45,Valerie Sulfaro,74,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
-74,Robert Reece,46,Jazmine Walker,75,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
-75,Robert Reece,46,Shan’Ternera Williams,76,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
-76,Jorge Dominguez,47,Terry Karl,77,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
-77,Sean Hutchison,48,Ariana Kukors,78,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
-78,Brent Hamilton,49,Sara Rabuse,79,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-79,Phillip Deitrich,50,Jamie Leigh Hogan,80,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-80,John Kenneally,51,Mary Frances Pulizzi,81,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-81,Roger Ailes,52,Gretchen Carlson,82,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-82,Bill O'Reilly,53,Burgess,83,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-83,Harry Knowles,4,Gloria Walker,84,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
-84,Harry Knowles,4,Britt Hayes,85,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
-85,Roy Price,54,Isa Hackett,86,Business & Tech,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-86,Andy Signore,55,April Dawn,87,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-87,Andy Signore,55,Devin Murphy,88,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-88,Knight Landesman,6,Elisabeth McAvoy,89,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-89,Knight Landesman,6,Jordana Zeldin,90,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-90,Knight Landesman,6,Valerie Werder,91,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-91,John Hockenberry,11,Kristen Meinzer,92,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-92,Don Hazen,14,Laura Gottesdiener,93,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-93,Don Hazen,14,Mac McClelland,94,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-94,Roy Moore,17,Gloria Thacker Deason,95,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-95,Roy Moore,17,Wendy Miller,96,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-96,Roy Moore,17,Debbie Wesson Gibson,97,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-97,Roy Moore,17,Gena Richardson,98,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-98,Roy Moore,17,Phyllis Smith,99,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-99,Donald Trump,56,Jessica Leeds,100,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-100,Donald Trump,56,Kristin Anderson,101,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-101,Donald Trump,56,Jill Harth,102,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-102,Donald Trump,56,Cathy Heller,103,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-103,Donald Trump,56,Temple Taggart McDowell,104,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-104,Donald Trump,56,Karena Virginia,105,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-105,Donald Trump,56,Bridget Sullivan,106,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-106,Donald Trump,56,Tasha Dixon,107,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-107,Donald Trump,56,Mindy McGillivray,108,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-108,Donald Trump,56,Rachel Crooks,109,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-109,Donald Trump,56,Natasha Stoynoff,110,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-110,Donald Trump,56,Jennifer Murphy,111,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-111,Donald Trump,56,Jessica Drake,112,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-112,Donald Trump,56,Ninni Laaksonen,113,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-113,Donald Trump,56,Summer Zervos,114,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-114,Donald Trump,56,Cassandra Searles,115,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-115,Donald Trump,56,E. Jean Carroll,116,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-116,Donald Trump,56,Amy Dorris,117,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-117,Roger Ailes,52,Kellie Boyle,118,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-118,Roger Ailes,52,Marsha Callahan,119,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-119,Roger Ailes,52,Susan,120,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-120,Roger Ailes,52,Diane,121,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-121,Roger Ailes,52,Pat,122,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-122,Bill O'Reilly,53,Wendy Walsh,123,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-123,John Kenneally,51,Page Zeringue,124,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-124,Christina Seafort,57,Sarah Lozano,125,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-125,Adam Venit,58,Terry Crews,126,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-126,Albert J. Alvarez,59,Katie Brennan,127,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-127,Albert Schultz,60,Kristin Booth,128,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-128,Albert Schultz,60,Trish Fagan,129,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-129,Albert Schultz,60,Diana Bentley,130,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-130,Albert Schultz,60,Hannah Miller,131,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-131,Alec Klein,61,Olivia Pera,132,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
-132,Alec Klein,61,Meribah Knight,133,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
-133,Alec Klein,61,Lauryn Schroeder,134,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
-134,Alex Jones,62,Ashley Beckford,135,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
-135,Alex Jones,62,Rob Jacobson,136,Media,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
-136,Alex Kozinski,63,Dahlia Lithwick,137,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-137,Alex Kozinski,63,Nancy Rapoport,138,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-138,Alex Kozinski,63,Leah Litman,139,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-139,Alex Kozinski,63,Christine O.C. Miller,140,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-140,Andre Passos,64,Dasha Alexander,141,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
-141,Andrea Ramsey,65,Gary Funkhouser,142,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-142,Andy Henry,66,Jacqueline Mueller,143,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-143,Andy Henry,66,Tessa Goss,144,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-144,Andy Henry,66,Mandy June Turpin,145,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-145,Andy Savage,67,Jules Woodson,146,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-146,Aziz Ansari,68,Grace,147,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-147,Barry Lubin,69,Zoey Dunne,148,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-148,Ben Affleck,70,Hilarie Burton,149,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-149,Ben Affleck,70,Annamarie Tendler,150,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-150,Ben Vereen,71,Kaitlyn Terpstra,151,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-151,Ben Vereen,71,Kim,152,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-152,Ben Vereen,71,Vera,153,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-153,Ben Vereen,71,Ariella Pizarro,154,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-154,Benton Strong,72,Mary,155,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
-155,Bill Hybels,73,Vonda Dyer,156,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
-156,Bill Hybels,73,Beach,157,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
-157,Blake Farenthold,74,Lauren Greene,158,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-158,Bob Weinstein,75,Amanda Segel,159,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
-159,Borris Miles,76,Lauren,160,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-160,Borris Miles,76,Heather,161,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-161,Borris Miles,76,Margaret,162,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-162,Carlos Uresti,77,Rachel,163,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-163,Brett Kavanaugh,78,Christine Blasey Ford,164,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-164,Brett Kavanaugh,78,Julie Swetnick,165,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-165,Brett Kavanaugh,78,Deborah Ramirez,166,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-166,Brett Ratner,79,Natasha Henstridge,167,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-167,Brett Ratner,79,Olivia Munn,168,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-168,Brett Ratner,79,Jaime Ray Newman,169,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-169,Brett Ratner,79,Katharine Towne,170,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-170,Brett Ratner,79,Eri Sasaki,171,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-171,Brett Ratner,79,Jorina King,172,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-172,Mario Testino,80,Ryan Locke,173,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-173,Mario Testino,80,Jason Fedele,174,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-174,Mario Testino,80,Hugo Tillman,175,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-175,Mario Testino,80,Taber,176,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-176,Mario Testino,80,Roman Barrett,177,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-177,Bruce Weber,81,Robyn Sinclair,178,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-178,Bruce Weber,81,Terron Wood,179,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-179,Bruce Weber,81,Josh Ardolf,180,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-180,Bruce Weber,81,Bobby Roache,181,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-181,Bruce Weber,81,Monty Hooper,182,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-182,Bruce Weber,81,Mark Ricketson,183,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
-183,Bryan Singer,82,Michael Egan,184,Arts & Entertainment,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-184,Bryan Singer,82,John Doe,185,Arts & Entertainment,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-185,Bryan Singer,82,Cesar Sanchez-Guzman,186,Arts & Entertainment,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-186,Calvin Smyre,83,Jehmu Greene,187,Politics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
-187,Francisco Ayala,84,Kathleen Treseder,188,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
-188,Francisco Ayala,84,Jessica Pratt,189,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
-189,Francisco Ayala,84,Benedicte Shipley,190,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
-190,Francisco Ayala,84,Michelle Herrera,191,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
-191,"Roland G. Fryer, Jr.",85,Naomi R. Shatz,192,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-192,George Tyndall,86,Dana Loewy,193,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-193,George Tyndall,86,Heil,194,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
-194,William Strampel,87,Nicole Eastman,195,Other,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+predator,month,victim,section
+Sean Hannity,2017-04-01,Debbie Schlussel,Media
+Eric Bolling,2017-08-01,Caroline Heldman,Media
+Charles Payne,2017-09-01,Scottie Nell Hughes,Media
+Harry Knowles,2017-09-01,Jasmine Baker,Media
+Lockhart Steele,2017-10-01,Eden Rohatensky,Media
+Knight Landesman,2017-10-01,Amanda Schmitt,Arts & Entertainment
+Knight Landesman,2017-10-01,Alissa McKendrick,Arts & Entertainment
+Michael Hafford,2017-10-01,Helena Donahue,Media
+Jann Wenner,2017-11-01,Ben Ryan,Media
+Vince Ingenito,2017-11-01,Kallie Plagge,Media
+Matt Lauer,2017-11-01,Brooke Nevils,Media
+John Hockenberry,2017-12-01,Suki Kim,Media
+Donovan McNabb,2017-12-01,Jami Cantor,Media
+Jonathan Schwartz,2017-12-01,Kerry Nolan,Media
+Don Hazen,2017-12-01,Liliana Segura,Media
+Don Hazen,2017-12-01,Kristen Gwynne,Media
+Don Hazen,2017-12-01,Tana Ganeva,Media
+Mike Germano,2018-01-01,Amanda Rue,Media
+Mike Germano,2018-01-01,Gabrielle Schaefer,Media
+H. Brandt Ayers,2018-01-01,Wendy Sigal,Media
+H. Brandt Ayers,2018-01-01,Veronica Pike Kennedy,Media
+Roy Moore,2017-11-01,Leigh Corfman,Politics
+Roy Moore,2017-11-01,Beverly Young Nelson,Politics
+Roy Moore,2018-01-01,Tina Johnson,Politics
+Roy Moore,2017-11-01,Becky Gray,Politics
+Antonin Kratochvil,2018-07-01,Anastasia Taylor-Lind,Media
+Antonin Kratochvil,2018-07-01,Stephanie Sinclair,Media
+Nick Sauer,2018-08-01,Kate Kelly,Media
+Mel Watt,2018-07-01,Simone Grimes,Politics
+Harvey Weinstein,2017-10-01,Rose McGowan,Media
+Harvey Weinstein,2017-10-01,Annabella Sciorra,Media
+Harvey Weinstein,2017-10-01,Mira Sorvino,Media
+Harvey Weinstein,2017-10-01,Salma Hayek,Media
+Harvey Weinstein,2017-10-01,Lucia Evans,Media
+Harvey Weinstein,2017-10-01,Paz de la Huerta,Media
+Harvey Weinstein,2017-10-01,Gwyneth Paltrow,Media
+Harvey Weinstein,2017-10-01,Mimi Haleyi,Media
+Harvey Weinstein,2017-10-01,Dominique Huett,Media
+Harvey Weinstein,2017-10-01,Natassia Malthe,Media
+Harvey Weinstein,2017-10-01,Lysette Anthony,Media
+Harvey Weinstein,2017-10-01,Angelina Jolie,Media
+Harvey Weinstein,2017-10-01,Uma Thurman,Media
+Harvey Weinstein,2017-10-01,Heather Graham,Media
+Harvey Weinstein,2017-10-01,Zoe Brock,Media
+Harvey Weinstein,2017-10-01,Louisette Geiss,Media
+Harvey Weinstein,2017-10-01,Ambra Battilana Gutierrez,Media
+Eric Schneiderman,2018-05-01,Michelle Manning Barish,Politics
+Eric Schneiderman,2018-05-01,Tanya Selvaratnam,Politics
+Clay Johnson,2018-05-01,Sarah Schacht,Politics
+Clay Johnson,2018-05-01,Erie Meyer,Politics
+Cristina Garcia,2018-02-01,Daniel Fierro,Politics
+Jeffrey Klein,2018-01-01,Erica Vladimer,Politics
+Corey Lewandowski,2017-12-01,Joy Villa,Politics
+Bobby Scott,2017-12-01,M. Reese Everson,Politics
+Ed Murray,2017-12-01,Tatiana Maxwell,Politics
+Dan Johnson,2017-12-01,Maranda Richmond,Politics
+Steven Wilder Striegel,2018-09-01,Paige Carnes,Arts & Entertainment
+Chase Finlay,2018-08-01,Alexandra Waterbury,Arts & Entertainment
+Asia Argento,2018-08-01,Jimmy Bennett,Arts & Entertainment
+Rick Day,2018-07-01,Michael Zakar,Arts & Entertainment
+Rick Day,2018-07-01,Zach Zakar,Arts & Entertainment
+Morgan Freeman,2018-05-01,Alan Arkin,Arts & Entertainment
+Morgan Freeman,2018-05-01,Chloe Melas,Arts & Entertainment
+Boyd Tinsley,2018-05-01,James Frost-Winn,Arts & Entertainment
+Ameer Vann,2018-05-01,Rhett Rowan,Arts & Entertainment
+John Kricfalusi,2018-03-01,Robyn Byrd,Arts & Entertainment
+Richard DeVaul,2018-10-01,Star Simpson,Business & Tech
+Sam Isaly,2017-12-01,Delilah Burke,Business & Tech
+Robert Scoble,2017-10-01,Quinn Norton,Business & Tech
+Dave McClure,2017-06-01,Cheryl Yeoh,Business & Tech
+Travis Kalanick,2017-06-01,Susan J. Fowler,Business & Tech
+Avital Ronell,2018-08-01,Nimrod Reitman,Other
+Mark Mellor,2018-06-01,Katherine O’Connell,Other
+William Jacoby,2018-04-01,Valerie Sulfaro,Other
+Robert Reece,2018-03-01,Jazmine Walker,Other
+Robert Reece,2018-04-01,Shan’Ternera Williams,Other
+Jorge Dominguez,2018-02-01,Terry Karl,Other
+Sean Hutchison,2018-02-01,Ariana Kukors,Other
+Brent Hamilton,2018-01-01,Sara Rabuse,Other
+Phillip Deitrich,2018-01-01,Jamie Leigh Hogan,Other
+John Kenneally,2018-01-01,Mary Frances Pulizzi,Other
+Roger Ailes,2016-07-01,Gretchen Carlson,Media
+Bill O'Reilly,2017-04-01,Burgess,Media
+Harry Knowles,2017-09-01,Gloria Walker,Media
+Harry Knowles,2017-09-01,Britt Hayes,Media
+Roy Price,2017-10-01,Isa Hackett,Business & Tech
+Andy Signore,2017-10-01,April Dawn,Arts & Entertainment
+Andy Signore,2017-10-01,Devin Murphy,Arts & Entertainment
+Knight Landesman,2017-10-01,Elisabeth McAvoy,Arts & Entertainment
+Knight Landesman,2017-10-01,Jordana Zeldin,Arts & Entertainment
+Knight Landesman,2017-10-01,Valerie Werder,Arts & Entertainment
+John Hockenberry,2017-12-01,Kristen Meinzer,Media
+Don Hazen,2017-12-01,Laura Gottesdiener,Media
+Don Hazen,2017-12-01,Mac McClelland,Media
+Roy Moore,2017-11-01,Gloria Thacker Deason,Politics
+Roy Moore,2017-11-01,Wendy Miller,Politics
+Roy Moore,2017-11-01,Debbie Wesson Gibson,Politics
+Roy Moore,2017-11-01,Gena Richardson,Politics
+Roy Moore,2017-11-01,Phyllis Smith,Politics
+Donald Trump,2016-10-01,Jessica Leeds,Politics
+Donald Trump,2016-10-01,Kristin Anderson,Politics
+Donald Trump,2016-07-01,Jill Harth,Politics
+Donald Trump,2016-10-01,Cathy Heller,Politics
+Donald Trump,2016-05-01,Temple Taggart McDowell,Politics
+Donald Trump,2016-10-01,Karena Virginia,Politics
+Donald Trump,2016-05-01,Bridget Sullivan,Politics
+Donald Trump,2016-10-01,Tasha Dixon,Politics
+Donald Trump,2016-10-01,Mindy McGillivray,Politics
+Donald Trump,2016-10-01,Rachel Crooks,Politics
+Donald Trump,2016-10-01,Natasha Stoynoff,Politics
+Donald Trump,2019-06-01,Jennifer Murphy,Politics
+Donald Trump,2016-10-01,Jessica Drake,Politics
+Donald Trump,2016-10-01,Ninni Laaksonen,Politics
+Donald Trump,2016-10-01,Summer Zervos,Politics
+Donald Trump,2016-06-01,Cassandra Searles,Politics
+Donald Trump,2019-06-01,E. Jean Carroll,Politics
+Donald Trump,2020-09-01,Amy Dorris,Politics
+Roger Ailes,2016-07-01,Kellie Boyle,Media
+Roger Ailes,2016-07-01,Marsha Callahan,Media
+Roger Ailes,2016-07-01,Susan,Media
+Roger Ailes,2016-07-01,Diane,Media
+Roger Ailes,2016-07-01,Pat,Media
+Bill O'Reilly,2017-04-01,Wendy Walsh,Media
+John Kenneally,2018-01-01,Page Zeringue,Other
+Christina Seafort,2018-01-01,Sarah Lozano,Other
+Adam Venit,2017-10-01,Terry Crews,Arts & Entertainment
+Albert J. Alvarez,2018-10-01,Katie Brennan,Politics
+Albert Schultz,2018-01-01,Kristin Booth,Arts & Entertainment
+Albert Schultz,2018-01-01,Trish Fagan,Arts & Entertainment
+Albert Schultz,2018-01-01,Diana Bentley,Arts & Entertainment
+Albert Schultz,2018-01-01,Hannah Miller,Arts & Entertainment
+Alec Klein,2018-02-01,Olivia Pera,Other
+Alec Klein,2018-02-01,Meribah Knight,Other
+Alec Klein,2018-02-01,Lauryn Schroeder,Other
+Alex Jones,2018-02-01,Ashley Beckford,Media
+Alex Jones,2018-02-01,Rob Jacobson,Media
+Alex Kozinski,2017-12-01,Dahlia Lithwick,Politics
+Alex Kozinski,2017-12-01,Nancy Rapoport,Politics
+Alex Kozinski,2017-12-01,Leah Litman,Politics
+Alex Kozinski,2017-12-01,Christine O.C. Miller,Politics
+Andre Passos,2018-02-01,Dasha Alexander,Arts & Entertainment
+Andrea Ramsey,2017-12-01,Gary Funkhouser,Politics
+Andy Henry,2017-11-01,Jacqueline Mueller,Arts & Entertainment
+Andy Henry,2017-11-01,Tessa Goss,Arts & Entertainment
+Andy Henry,2017-11-01,Mandy June Turpin,Arts & Entertainment
+Andy Savage,2017-12-01,Jules Woodson,Other
+Aziz Ansari,2018-01-01,Grace,Arts & Entertainment
+Barry Lubin,2018-01-01,Zoey Dunne,Arts & Entertainment
+Ben Affleck,2017-10-01,Hilarie Burton,Arts & Entertainment
+Ben Affleck,2017-10-01,Annamarie Tendler,Arts & Entertainment
+Ben Vereen,2018-01-01,Kaitlyn Terpstra,Arts & Entertainment
+Ben Vereen,2018-01-01,Kim,Arts & Entertainment
+Ben Vereen,2018-01-01,Vera,Arts & Entertainment
+Ben Vereen,2018-01-01,Ariella Pizarro,Arts & Entertainment
+Benton Strong,2018-04-01,Mary,Politics
+Bill Hybels,2018-03-01,Vonda Dyer,Other
+Bill Hybels,2018-03-01,Beach,Other
+Blake Farenthold,2017-11-01,Lauren Greene,Politics
+Bob Weinstein,2017-10-01,Amanda Segel,Arts & Entertainment
+Borris Miles,2017-12-01,Lauren,Politics
+Borris Miles,2017-12-01,Heather,Politics
+Borris Miles,2017-12-01,Margaret,Politics
+Carlos Uresti,2017-12-01,Rachel,Politics
+Brett Kavanaugh,2018-09-01,Christine Blasey Ford,Politics
+Brett Kavanaugh,2018-09-01,Julie Swetnick,Politics
+Brett Kavanaugh,2018-09-01,Deborah Ramirez,Politics
+Brett Ratner,2017-11-01,Natasha Henstridge,Arts & Entertainment
+Brett Ratner,2017-11-01,Olivia Munn,Arts & Entertainment
+Brett Ratner,2017-11-01,Jaime Ray Newman,Arts & Entertainment
+Brett Ratner,2017-11-01,Katharine Towne,Arts & Entertainment
+Brett Ratner,2017-11-01,Eri Sasaki,Arts & Entertainment
+Brett Ratner,2017-11-01,Jorina King,Arts & Entertainment
+Mario Testino,2018-01-01,Ryan Locke,Arts & Entertainment
+Mario Testino,2018-01-01,Jason Fedele,Arts & Entertainment
+Mario Testino,2018-01-01,Hugo Tillman,Arts & Entertainment
+Mario Testino,2018-01-01,Taber,Arts & Entertainment
+Mario Testino,2018-01-01,Roman Barrett,Arts & Entertainment
+Bruce Weber,2018-01-01,Robyn Sinclair,Arts & Entertainment
+Bruce Weber,2018-01-01,Terron Wood,Arts & Entertainment
+Bruce Weber,2018-01-01,Josh Ardolf,Arts & Entertainment
+Bruce Weber,2018-01-01,Bobby Roache,Arts & Entertainment
+Bruce Weber,2018-01-01,Monty Hooper,Arts & Entertainment
+Bruce Weber,2018-01-01,Mark Ricketson,Arts & Entertainment
+Bryan Singer,2014-04-01,Michael Egan,Arts & Entertainment
+Bryan Singer,2014-05-01,John Doe,Arts & Entertainment
+Bryan Singer,2017-12-01,Cesar Sanchez-Guzman,Arts & Entertainment
+Calvin Smyre,2017-11-01,Jehmu Greene,Politics
+Francisco Ayala,2018-06-01,Kathleen Treseder,Other
+Francisco Ayala,2018-06-01,Jessica Pratt,Other
+Francisco Ayala,2018-06-01,Benedicte Shipley,Other
+Francisco Ayala,2018-06-01,Michelle Herrera,Other
+"Roland G. Fryer, Jr.",2018-05-01,Naomi R. Shatz,Other
+George Tyndall,2018-05-01,Dana Loewy,Other
+George Tyndall,2018-05-01,Heil,Other
+William Strampel,2018-05-01,Nicole Eastman,Other

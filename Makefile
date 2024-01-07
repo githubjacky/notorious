@@ -1,16 +1,16 @@
-.PHONY: create-anchorbanks collect-trend dcreate-anchorbanks dcollect-trend
+.PHONY: create-anchorbanks trend-search dcreate-anchorbanks dtrend-search
 
 
 create-anchorbanks:
-	poetry run python create_anchorbanks.py
+	poetry run python scripts/create_anchorbanks.py
 # collect the gogle trend
-collect-trend:
-	poetry run python collect_trend.py
+trend-search:
+	poetry run python scripts/trend_search.py
 
 
 # docker
 dcreate-anchorbanks:
 	docker compose run --rm create-anchorbanks
 
-dcollect-trend:
-	docker compose run --rm collect-trend
+dtrend-search:
+	docker compose run --rm trend-search
