@@ -2057,3 +2057,7 @@ New query 'Alec Klein'
 2024-01-12 15:10:42.064199
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
 New query 'Alec Klein'
+
+2024-01-13 14:10:05.714726
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
