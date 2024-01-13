@@ -4,7 +4,6 @@ from loguru import logger
 import orjson
 from pathlib import Path
 from typing import List, Optional
-import time
 from tqdm import tqdm
 import sys
 

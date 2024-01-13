@@ -99,3 +99,20 @@ services:
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
     command: jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --allow-root
+
+  pytest:
+    image: 0jacky/notorious_cls:latest
+    container_name: pytest
+    volumes:
+      - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
+      - $PWD/log:/home/$DOCKER_USER/notorious_cls/log
+      - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
+      - $PWD/env:/home/$DOCKER_USER/notorious_cls/env
+      - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
+      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+      - $PWD/tests:/home/$DOCKER_USER/notorious_cls/tests
+    environment:
+      - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
+      - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
+      - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
+    command: pytest

@@ -3,9 +3,13 @@
 
 create-anchorbanks:
 	poetry run python scripts/create_anchorbanks.py
+
 # collect the gogle trend
 trend-search:
 	poetry run python scripts/trend_search.py
+
+test:
+	poetry run test
 
 
 # docker
@@ -14,3 +18,6 @@ dcreate-anchorbanks:
 
 dtrend-search:
 	docker compose run --rm trend-search
+
+dtest:
+	docker compose run --rm pytest

@@ -18,10 +18,10 @@ def get_target_list(source_path: str = "data/raw/s.csv", target: str = "predator
     else:
         res = pd.unique(pd.read_csv(source_path)[target]).tolist()
 
-        logger.info(f"save the {target} list")
         with output_path.open('w') as f:
             for i in res:
                 f.write(i + "\n")
+        logger.info(f"save the {target} list to {output_path}")
 
     return res
 

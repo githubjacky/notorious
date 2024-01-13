@@ -2,7 +2,7 @@ gtab:
   keyword_path: data/raw/victim_list_modified_robert.xlsx
   s_path: data/raw/s.csv
   # predator, victim
-  target: victim
+  target: predator
   suffix:
   init_path: gtab_config
   geo: worldwide

@@ -2616,3 +2616,7 @@ New query calibrated!
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2018-08-01 2018-12-31.tsv
 New query 'Robert Scoble'
 New query calibrated!
+
+2024-01-11 21:56:18.712032
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2018-08-01 2018-12-31.tsv
+New query 'Donald Trump'

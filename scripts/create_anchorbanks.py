@@ -2,6 +2,7 @@ import os, sys
 sys.path.append(os.path.abspath(f"{os.getcwd()}"))
 
 import hydra
+from loguru import logger
 from omegaconf import DictConfig
 
 from src.data.trend_search import TrendSearch
@@ -11,6 +12,7 @@ from src.data.utils import get_target_list
 @hydra.main(config_path="../config", config_name="main", version_base=None)
 def main(cfg: DictConfig):
     geo = "" if cfg.process.gtab.geo == "worldwide" else cfg.process.gtab.geo
+    logger.info(f"district: {geo}")
 
     engine = TrendSearch(
         get_target_list(

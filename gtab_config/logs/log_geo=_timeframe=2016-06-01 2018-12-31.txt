@@ -1589,3 +1589,471 @@ New query 'Jasmine Baker'
 2024-01-08 00:49:47.737865
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
 New query 'Beach'
+
+2024-01-08 11:16:04.137614
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Nick Sauer'
+
+2024-01-08 11:16:21.096446
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Donovan McNabb'
+
+2024-01-08 11:16:49.354896
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'George Tyndall'
+
+2024-01-08 11:17:08.256136
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Francisco Ayala'
+
+2024-01-08 11:17:24.321636
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Benton Strong'
+
+2024-01-08 11:17:53.576639
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alex Kozinski'
+
+2024-01-08 11:18:10.278317
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Aziz Ansari'
+
+2024-01-08 11:19:28.112468
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Mike Germano'
+
+2024-01-08 11:19:50.932698
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Barry Lubin'
+
+2024-01-08 11:20:05.976432
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Asia Argento'
+
+2024-01-08 11:20:20.808487
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Aziz Ansari'
+
+2024-01-08 11:20:35.705633
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Steven Wilder Striegel'
+
+2024-01-08 11:20:51.158605
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Jann Wenner'
+
+2024-01-08 11:21:05.972954
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Mark Mellor'
+
+2024-01-08 11:21:20.836087
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'John Kricfalusi'
+
+2024-01-08 11:21:35.624656
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Andre Passos'
+
+2024-01-08 11:21:51.224685
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Donovan McNabb'
+
+2024-01-08 11:22:06.102069
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Borris Miles'
+
+2024-01-08 11:22:20.929592
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Benton Strong'
+
+2024-01-08 11:22:35.814466
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Boyd Tinsley'
+
+2024-01-08 11:22:51.441230
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Brett Ratner'
+
+2024-01-08 11:23:06.275758
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Bill O'Reilly'
+
+2024-01-08 11:23:21.101270
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Donald Trump'
+
+2024-01-08 11:23:36.172654
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Christina Seafort'
+
+2024-01-08 11:23:51.408601
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Albert Schultz'
+
+2024-01-08 11:24:06.979245
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Andy Henry'
+
+2024-01-08 11:24:22.305430
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'George Tyndall'
+
+2024-01-08 11:24:37.643416
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alex Kozinski'
+
+2024-01-08 11:24:52.842551
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Francisco Ayala'
+
+2024-01-08 11:25:08.694784
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'William Jacoby'
+
+2024-01-08 11:25:24.263037
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Bill Hybels'
+
+2024-01-08 11:25:43.532155
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Nick Sauer'
+
+2024-01-08 11:25:59.104335
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Roy Price'
+
+2024-01-08 11:26:15.227640
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Richard DeVaul'
+
+2024-01-08 11:26:30.808045
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Mike Germano'
+
+2024-01-08 11:26:50.146383
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Barry Lubin'
+
+2024-01-08 11:27:05.608888
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Asia Argento'
+
+2024-01-08 11:27:21.123348
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Aziz Ansari'
+
+2024-01-08 11:27:36.059008
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Steven Wilder Striegel'
+
+2024-01-08 11:27:51.282791
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Jann Wenner'
+
+2024-01-08 11:28:08.445564
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Mark Mellor'
+
+2024-01-08 11:28:46.560200
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'John Kricfalusi'
+
+2024-01-08 11:28:59.601025
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Andre Passos'
+
+2024-01-08 11:29:14.024739
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Donovan McNabb'
+
+2024-01-08 11:29:30.022266
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Borris Miles'
+
+2024-01-08 11:29:50.625748
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Benton Strong'
+
+2024-01-08 22:29:58.871412
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Albert Schultz'
+
+2024-01-08 22:30:13.766125
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Asia Argento'
+
+2024-01-09 09:02:50.702819
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query '管中閔'
+
+2024-01-09 10:31:54.803107
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Boyd Tinsley'
+
+2024-01-09 10:32:08.968377
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'George Tyndall'
+
+2024-01-09 10:32:23.420836
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Borris Miles'
+
+2024-01-11 20:50:26.775427
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Nick Sauer'
+
+2024-01-11 20:59:48.789844
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Steven Wilder Striegel'
+
+2024-01-11 21:00:03.600892
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Christina Seafort'
+
+2024-01-11 21:00:18.534625
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Benton Strong'
+
+2024-01-11 21:00:34.213160
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Bill Hybels'
+
+2024-01-11 21:00:49.948196
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Mark Mellor'
+
+2024-01-11 21:01:05.215932
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Jann Wenner'
+
+2024-01-11 21:01:20.123493
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Roy Price'
+
+2024-01-11 21:01:35.229261
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Borris Miles'
+
+2024-01-11 21:01:50.782382
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'George Tyndall'
+
+2024-01-11 21:02:05.953860
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alex Kozinski'
+
+2024-01-11 21:02:21.331357
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Boyd Tinsley'
+
+2024-01-11 21:02:36.454709
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Andy Henry'
+
+2024-01-11 21:02:51.629681
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Bill O'Reilly'
+
+2024-01-11 21:03:06.420666
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Aziz Ansari'
+
+2024-01-11 21:03:21.761409
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Albert Schultz'
+
+2024-01-11 21:03:37.090859
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Donovan McNabb'
+
+2024-01-11 21:03:51.859887
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'John Kricfalusi'
+
+2024-01-11 21:04:06.867803
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'William Jacoby'
+
+2024-01-11 21:04:21.471661
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Richard DeVaul'
+
+2024-01-11 21:04:36.312896
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Brett Ratner'
+
+2024-01-11 21:04:51.168516
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Nick Sauer'
+
+2024-01-11 21:05:05.793526
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Mike Germano'
+
+2024-01-11 21:05:20.968627
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Francisco Ayala'
+
+2024-01-11 21:05:35.935326
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Asia Argento'
+
+2024-01-11 21:05:50.432462
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Andre Passos'
+
+2024-01-11 21:06:05.526666
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Donald Trump'
+
+2024-01-11 21:06:20.565158
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Barry Lubin'
+
+2024-01-11 21:06:35.630893
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Steven Wilder Striegel'
+
+2024-01-11 21:06:50.633785
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Christina Seafort'
+
+2024-01-11 21:07:05.449071
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Benton Strong'
+
+2024-01-11 21:07:20.627026
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Bill Hybels'
+
+2024-01-11 21:07:35.432613
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Mark Mellor'
+
+2024-01-11 21:07:50.064981
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Jann Wenner'
+
+2024-01-11 21:08:05.033404
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Roy Price'
+
+2024-01-11 21:08:20.000411
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Borris Miles'
+
+2024-01-11 21:08:35.413117
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'George Tyndall'
+
+2024-01-11 21:08:50.990767
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alex Kozinski'
+
+2024-01-11 21:09:05.666677
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Boyd Tinsley'
+
+2024-01-11 21:09:20.552939
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Andy Henry'
+
+2024-01-11 21:09:35.774490
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Bill O'Reilly'
+
+2024-01-11 21:09:51.345776
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Aziz Ansari'
+
+2024-01-11 21:10:06.372504
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Albert Schultz'
+
+2024-01-11 21:10:21.907717
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Donovan McNabb'
+
+2024-01-11 21:10:37.224284
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'John Kricfalusi'
+
+2024-01-11 21:10:52.359828
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'William Jacoby'
+
+2024-01-11 21:11:07.670924
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Richard DeVaul'
+
+2024-01-11 21:11:22.840952
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Brett Ratner'
+
+2024-01-11 21:11:37.952740
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Nick Sauer'
+
+2024-01-11 21:11:53.028590
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Mike Germano'
+
+2024-01-11 21:12:08.050226
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Francisco Ayala'
+
+2024-01-11 21:12:23.205485
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Asia Argento'
+
+2024-01-11 21:12:38.656073
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Andre Passos'
+
+2024-01-11 21:12:53.503112
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Donald Trump'
+
+2024-01-11 21:13:08.471673
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Barry Lubin'
+
+2024-01-11 21:13:23.766690
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Steven Wilder Striegel'
+
+2024-01-11 21:13:38.557704
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Christina Seafort'
+
+2024-01-11 21:13:54.329650
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Benton Strong'
+
+2024-01-11 21:14:09.160351
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Bill Hybels'
+
+2024-01-11 21:14:24.405771
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Mark Mellor'
+
+2024-01-12 10:39:11.107016
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Asia Argento'
+
+2024-01-12 10:39:25.720171
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'John Kricfalusi'
+
+2024-01-12 10:39:39.880328
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Andre Passos'
+
+2024-01-12 23:06:50.431217
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
+
+2024-01-12 15:10:42.064199
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
