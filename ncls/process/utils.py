@@ -104,15 +104,18 @@ class MergeUtil:
 
 
     def raw_merge(self,
-              output_data_path: str = 'data/processed/victim_list_01252023.xlsx',
-              adjust_method: str = 'sum',
-              write: bool = True
-              ):
-        """
-        Merget the gtab result with the first time, which means there is no
+                  output_data_path: str = 'data/processed/victim_list_01252023.xlsx',
+                  adjust_method: str = 'sum',
+                  write: bool = True
+                 ) -> pd.DataFrame:
+        """Merget the gtab result with the first time, which means there is no
         previous results of which should be merged on top.
 
-        param adjust_method: how to transform the weekly data to monthly frequency
+        Args:
+            adjust_method: how to transform the weekly data to monthly frequency
+
+        Returns:
+            A Pandas DataFrame, which is the merge result
         """
 
         data = (

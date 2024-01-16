@@ -2620,3 +2620,11 @@ New query calibrated!
 2024-01-11 21:56:18.712032
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2018-08-01 2018-12-31.tsv
 New query 'Donald Trump'
+
+2024-01-15 14:56:26.933466
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2018-08-01 2018-12-31.tsv
+New query 'Alec Klein'
+
+2024-01-15 15:14:51.893881
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2018-08-01 2018-12-31.tsv
+New query 'Alec Klein'

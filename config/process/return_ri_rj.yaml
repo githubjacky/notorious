@@ -1,6 +1,6 @@
 gtab_res_dir: data/gtab_res/predator/original
 raw_data_path: data/raw/victim_list_11222023.xlsx
-output_data_path: data/processed/victim_list_11222023.xlsx 
+output_data_path: data/processed/victim_list_11222023.xlsx
 # how to transform the weekly gtab result to monthly
 adjust_method: sum
 # If your are not going to extend the period(i.e. first merge), the method

@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  create-anchorbanks:
+  pytest:
     image: 0jacky/notorious_cls:latest
     build:
       dockerfile: ./Dockerfile
@@ -9,6 +9,24 @@ services:
         UID: $UID
         GID: $GID
         USER: $DOCKER_USER
+    container_name: pytest
+    environment:
+      - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
+      - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
+      - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
+    volumes:
+      - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
+      - $PWD/log:/home/$DOCKER_USER/notorious_cls/log
+      - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
+      - $PWD/env:/home/$DOCKER_USER/notorious_cls/env
+      - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
+      - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
+      - $PWD/tests:/home/$DOCKER_USER/notorious_cls/tests
+    command: pytest
+
+
+  create-anchorbanks:
+    image: 0jacky/notorious_cls:latest
     container_name: create_anchorbanks
     network_mode: "host"
     volumes:
@@ -18,9 +36,10 @@ services:
       - $PWD/env:/home/$DOCKER_USER/notorious_cls/env
       - $PWD/model:/home/$DOCKER_USER/notorious_cls/model
       - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
-      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+      - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     environment:
+      - DOCKER_USER=$DOCKER_USER
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
@@ -38,9 +57,10 @@ services:
       - $PWD/env:/home/$DOCKER_USER/notorious_cls/env
       - $PWD/model:/home/$DOCKER_USER/notorious_cls/model
       - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
-      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+      - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     environment:
+      - DOCKER_USER=$DOCKER_USER
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
@@ -53,8 +73,10 @@ services:
     network_mode: "host"
     volumes:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
-      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+      - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
+    environment:
+      - DOCKER_USER=r12323011
     command: python script/adjust_ait.py --write --sum
 
 
@@ -64,8 +86,10 @@ services:
     network_mode: "host"
     volumes:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
-      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+      - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
+    environment:
+      - DOCKER_USER=$DOCKER_USER
     command: python script/create_ri_for_regression.py --write
 
 
@@ -75,8 +99,10 @@ services:
     network_mode: "host"
     volumes:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
-      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+      - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
+    environment:
+      - DOCKER_USER=r12323011
     command: python script/return_ri_rj.py --write
 
 
@@ -91,28 +117,13 @@ services:
       - $PWD/model:/home/$DOCKER_USER/notorious_cls/model
       - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
       - $PWD/notebooks/:/home/$DOCKER_USER/notorious_cls/notebooks
-      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
+      - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
     ports:
       - "8888:8888"
     environment:
+      - DOCKER_USER=$DOCKER_USER
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
     command: jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --allow-root
 
-  pytest:
-    image: 0jacky/notorious_cls:latest
-    container_name: pytest
-    volumes:
-      - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
-      - $PWD/log:/home/$DOCKER_USER/notorious_cls/log
-      - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
-      - $PWD/env:/home/$DOCKER_USER/notorious_cls/env
-      - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
-      - $PWD/src/data:/home/$DOCKER_USER/notorious_cls/src/data
-      - $PWD/tests:/home/$DOCKER_USER/notorious_cls/tests
-    environment:
-      - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
-      - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
-      - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
-    command: pytest

@@ -3,17 +3,21 @@
 
 
 ## File Structure
-All the source code can be found under **src/** folder. I modify some of the code
-in original gtab [repo](https://github.com/epfl-dlab/GoogleTrendsAnchorBank) and 
-stored under **src/data/gtab**. **config** folder is the hydra configuration for 
+All the source code can be found under **ncls/** folder and this is the main
+module of this repo. Besides, I modify some of the code
+in original gtab [repo](https://github.com/epfl-dlab/GoogleTrendsAnchorBank) library and 
+store it under **ncls/process/gtab**. **config** folder is the hydra configuration for 
 collecting google trends records or web scrapping negative keywords. 
 The **env/** folder simply store the meta-data after collect google trends records, 
 such as the invalid keywords, keywords which need to be checked whether
 it is actually "negative". **notebooks/** store the jupyter notebook that I use 
-to prototype the source code.
+to prototype the module. In conclusion, the repo can be divided into main and
+auxiliary category. For the main category, it contains three parts, which is
+configuration, module, and test, all in similar structure. For the auxiliary
+category, it involves notebooks and scripts.
 
 
-## Package
+## Reference Library
 - collect google trends: [gtab](https://github.com/epfl-dlab/GoogleTrendsAnchorBank)
 - search negative keyword: [keybert](https://github.com/MaartenGr/KeyBERT), [flair](https://github.com/flairNLP/flair)
 

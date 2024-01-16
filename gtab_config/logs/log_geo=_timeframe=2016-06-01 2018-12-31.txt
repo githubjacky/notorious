@@ -2073,3 +2073,35 @@ New query 'Alec Klein'
 2024-01-14 09:59:53.807846
 Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
 New query 'Alec Klein'
+
+2024-01-14 23:48:43.504823
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
+
+2024-01-15 00:02:12.789841
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
+
+2024-01-15 00:37:40.903983
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
+
+2024-01-15 14:31:31.635880
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
+
+2024-01-15 06:55:24.083700
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
+
+2024-01-15 06:55:48.701682
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
+
+2024-01-15 15:14:20.264731
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'
+
+2024-01-16 22:33:00.032549
+Using gtab_config/output/google_anchorbanks/google_anchorbank_geo=_timeframe=2016-06-01 2018-12-31.tsv
+New query 'Alec Klein'

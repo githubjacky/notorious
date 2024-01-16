@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "notorious_cls"
+name = "ncls"
 version = "0.1.0"
 description = ""
 authors = ["githubjacky"]

@@ -5,8 +5,8 @@ import hydra
 from loguru import logger
 from omegaconf import DictConfig
 
-from src.data.trend_search import TrendSearch
-from src.data.utils import get_target_list
+from ncls import TrendSearch
+from ncls import get_target_list
 
 
 @hydra.main(config_path="../config", config_name="main", version_base=None)

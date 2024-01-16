@@ -11,7 +11,7 @@ trend-search:
 	poetry run python scripts/trend_search.py
 
 test:
-	poetry run test
+	poetry run pytest
 
 
 # docker

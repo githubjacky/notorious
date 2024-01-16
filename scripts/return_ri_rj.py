@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(f"{os.getcwd()}"))
 import hydra
 from omegaconf import DictConfig
 
-from src.data.utils import MergeUtil
+from ncls import MergeUtil
 
 
 @hydra.main(config_path="../config", config_name="main", version_base=None)
