@@ -6,8 +6,7 @@ from loguru import logger
 from omegaconf import DictConfig
 from pathlib import Path
 
-from ncls import TrendSearch
-from ncls import get_target_list
+from ncls.process import TrendSearch
 
 
 @hydra.main(config_path="../config", config_name="main", version_base=None)
@@ -16,10 +15,7 @@ def main(cfg: DictConfig):
     logger.info(f"district: {geo}")
 
     engine = TrendSearch(
-        get_target_list(
-            cfg.process.gtab.s_path,
-            cfg.process.gtab.target
-        ),
+        cfg.process.gtab.target,
         cfg.process.gtab.suffix,
         geo,
         cfg.process.gtab.period,

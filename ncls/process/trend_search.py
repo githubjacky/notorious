@@ -1,4 +1,5 @@
 import datetime
+from datetime import date
 from functools import cached_property
 from loguru import logger
 import orjson
@@ -7,13 +8,14 @@ from typing import List, Optional
 from tqdm import tqdm
 import sys
 
-from .gtab.core import GTAB
+from .gtab import GTAB
 from .negative_search import NegativeKW_Collector
+from .utils import get_target_list
 
 
 class TrendSearch():
     def __init__(self,
-                 target_list: List[str],
+                 target: str,
                  suffix: str = "Sexual harassment",
                  geo: str = "",
                  period: List[str] = ["2016-01-01", "2018-07-31"],
@@ -22,6 +24,7 @@ class TrendSearch():
                  sentiment_model: str = "sentiment",
                  extract_model: str = "Voicelab/vlt5-base-keywords"
                  ):
+        self.target = target
         self.invalid_keyword_path = Path('env/invalid_keyword.txt')
         self.invalid_keywords = (
             self.invalid_keyword_path
@@ -29,6 +32,7 @@ class TrendSearch():
             .split('\n')
         )[:-1]
 
+        target_list = get_target_list(target=target)
         self.keyword_list = (
             [
                 i + " " + "\"" + suffix + "\""
@@ -36,7 +40,7 @@ class TrendSearch():
             ]
             if suffix is not None
             else
-            list(set(target_list))
+            target_list
         )
 
         self.geo = geo
@@ -53,6 +57,8 @@ class TrendSearch():
 
     @cached_property
     def collector(self):
+        """Initiate the instance of the Negative Keyword Collector."""
+
         return NegativeKW_Collector(
             self.n_url,
             self.search_sleep,
@@ -62,9 +68,8 @@ class TrendSearch():
 
 
     def setup(self, init_path: str = "gtab_config"):
-        """
-        Setup GTAB class for scraping google trends.
-        """
+        """Setup anchor banks."""
+
         timeframe = " ".join(self.period)
         anchor_dir = Path(f"{init_path}/output/google_anchorbanks")
         anchor_file = "_".join((
@@ -80,7 +85,9 @@ class TrendSearch():
                     "geo": self.geo,
                     "timeframe": timeframe
                 },
-                conn_config={"backoff_factor": 1.0}
+                conn_config={
+                    "backoff_factor": 0.1
+                }
             )
             t.create_anchorbank()
 
@@ -88,16 +95,12 @@ class TrendSearch():
         self.t = t
 
 
-    def negative_search(self, target: str):
-        """
-        Try to find a valid negative suffix, if we can't collect trend using
-        such keyword(keyword = suffix + name).
+    def negative_search(self, target: str) -> List[str]:
+        """Suggest list of negative suffixes."""
 
-        :param target: is the name of either 'predator' or 'victim'
-        """
         self.collector.setup(target)
         output_path = (
-            self.collector.output_dir 
+            self.collector.output_dir
             /
             "_".join((
                 self.extract_model,
@@ -119,39 +122,11 @@ class TrendSearch():
 
 
     def calibrate_instance(self, keyword: str):
-        try:
-            return self.t.new_query(keyword).get('max_ratio')
-        except:
-            raise KeyError("invalid keyword")
-
-
-    @staticmethod
-    def __merge_res(base_date, add_date, base_max_ratio, add_max_ratio):
-        insert_date = add_date[0]
-        insert_pos = 0
-        for t, date in enumerate(base_date):
-            if date >= insert_date:
-                insert_pos = t
-                break
-
-        merge_date = base_date[:insert_pos] + add_date
-        merge_max_ratio = base_max_ratio[:insert_pos] + add_max_ratio
-
-
-        return  merge_date, merge_max_ratio
-
-
-    def calibrate_and_write(self,
-                            keyword: str,
-                            output_path: Path,
-                            prev_max_ratio: Optional[List],
-                            prev_date: Optional[List],
-                            continuous_mode = True
-                            ):
         status = 0
+        res = ""
         try:
             logger.info(f"query: {keyword}")
-            res = self.calibrate_instance(keyword)
+            res = self.t.new_query(keyword).get('max_ratio')
         except ConnectionError as e:
             logger.warning(f"{e}: {keyword}")
             sys.exit()
@@ -159,31 +134,76 @@ class TrendSearch():
             logger.info(f"{e}: Can't get trend result-{keyword}")
             status = -1
 
+        return status, res
+
+
+    @staticmethod
+    def __merge_res(prev_date: List[date],
+                    target_date: List[date],
+                    prev_max_ratio: List[float],
+                    target_max_ratio: List[float]
+                   ):
+        """Merge result of the specified period with the previous one."""
+
+        if prev_date[0] <= target_date[0]:
+            logger.info(f"merge {str(prev_date[0])}-{str(prev_date[-1])} with {str(target_date[0])}-{str(target_date[-1])}")
+
+            insert_pos = 0
+            for t, date in enumerate(prev_date):
+                if date >= target_date[0]:
+                    insert_pos = t
+                    break
+
+            merge_date = prev_date[:insert_pos] + target_date
+            merge_max_ratio = prev_max_ratio[:insert_pos] + target_max_ratio
+        else:
+            logger.info(f"merge {str(target_date[0])}-{str(target_date[-1])} with {str(prev_date[0])}-{str(prev_date[-1])}")
+
+            insert_pos = 0
+            for t, date in enumerate(prev_date):
+                if date >= target_date[-1]:
+                    insert_pos = t
+                    break
+
+            merge_date = target_date + prev_date[insert_pos:]
+            merge_max_ratio = target_max_ratio + prev_max_ratio[insert_pos:]
+
+        return  merge_date, merge_max_ratio
+
+
+    def calibrate_and_write(self,
+                            keyword: str,
+                            output_path: Path,
+                            prev_max_ratio: Optional[List[float]],
+                            prev_date: Optional[List[date]],
+                            continuous_mode = True
+                           ):
+        """Calibrate one keyword and write it into file."""
+        status, res = self.calibrate_instance(keyword)
+
         if status == 0:
             target_date = [i.date() for i in res.index]
             target_max_ratio = res.tolist()
 
             if prev_max_ratio is not None and prev_date is not None:
-                if prev_date[0] <= target_date[0]:
-                    logger.info(f"merge {str(prev_date[0])}-{str(prev_date[-1])} with {str(target_date[0])}-{str(target_date[-1])}")
-                    target_date, target_max_ratio = self.__merge_res(
-                        prev_date, target_date, prev_max_ratio, target_max_ratio
-                    )
-                else:
-                    logger.info(f"merge {str(target_date[0])}-{str(target_date[-1])} with {str(prev_date[0])}-{str(prev_date[-1])}")
-                    target_date, target_max_ratio = self.__merge_res(
-                        target_date, prev_date, target_max_ratio, prev_max_ratio
-                    )
+                target_date, target_max_ratio = self.__merge_res(
+                    prev_date,
+                    target_date,
+                    prev_max_ratio,
+                    target_max_ratio
+                )
 
             with output_path.open('wb') as f:
-                f.write(orjson.dumps(
-                    {
-                        "keyword": keyword,
-                        "date": target_date,
-                        "max_ratio": target_max_ratio
-                    },
-                    option = orjson.OPT_INDENT_2
-                ))
+                f.write(
+                    orjson.dumps(
+                        {
+                            "keyword": keyword,
+                            "date": target_date,
+                            "max_ratio": target_max_ratio
+                        },
+                        option=orjson.OPT_INDENT_2
+                    )
+                )
         else:
             if continuous_mode:
                 self.bad_keywords.append(keyword)
@@ -273,7 +293,10 @@ class TrendSearch():
 
         return output_path_name, prev_max_ratio, prev_date
 
+
     def __continuous_calibrate(self, result_dir, geo):
+        """Calibrate until all the bad keyword list is empty."""
+
         i = 1
         while len(self.bad_keywords) != 0:
             keywords = self.bad_keywords.copy()
@@ -311,6 +334,8 @@ class TrendSearch():
                         result_dir: Path = Path(f"data/gtab_res/predator"),
                         continuous_mode = True
                         ) -> None:
+        """Main function to calibrate."""
+
         logger.remove()
         log_info = Path("log/gtab_info.log")
         log_warn = Path("log/gtab_warn.log")

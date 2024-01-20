@@ -1,21 +1,22 @@
-.PHONY: build create-anchorbanks trend-search test 
+.PHONY: build test create-anchorbank trend-search test 
 
 build:
 	poetry install
 
-create-anchorbanks:
+test:
+	poetry run pytest
+
+create-anchorbank:
 	poetry run python scripts/create_anchorbanks.py
 
 # collect the gogle trend
 trend-search:
-	poetry run python scripts/trend_search.py
+	poetry run python scripts/trend_search.py process=trend_search
 
-test:
-	poetry run pytest
 
 
 # docker
-.PHONY: dbuild dcreate-anchorbanks dtrend-search dtest dclean
+.PHONY: dbuild dtest dcreate-anchorbank dtrend-search dtest dclean
 
 dbuild:
 	docker compose build
@@ -23,13 +24,18 @@ dbuild:
 dtest: dbuild
 	docker compose run --rm pytest
 
-dcreate-anchorbanks:
+dcreate-anchorbank:
 	docker compose run --rm create-anchorbanks
 
 dtrend-search:
 	docker compose run --rm trend-search
 
 dclean:
-	docker rmi 0jacky/notorious_cls:latest && \
-	    docker system prune
-	brew uninstall docker
+	docker rmi 0jacky/notorious_cls:latest
+	# docker rmi 0jacky/notorious_cls:latest && \
+	#     docker system prune
+
+
+# command for developer
+djupyter:
+	docker compose run --rm --service-ports jupyter-lab

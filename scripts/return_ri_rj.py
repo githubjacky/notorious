@@ -4,23 +4,24 @@ sys.path.append(os.path.abspath(f"{os.getcwd()}"))
 import hydra
 from omegaconf import DictConfig
 
-from ncls import MergeUtil
+from ncls.process import MergeUtil
 
 
 @hydra.main(config_path="../config", config_name="main", version_base=None)
 def main(cfg: DictConfig):
-    driver = MergeUtil(cfg.process.gtab_res_dir, cfg.process.raw_data_path)
+    driver = MergeUtil(cfg.process.gtab_res_dir, cfg.process.geo_period)
     match cfg.process.merge_method:
         case 'raw':
-            driver.raw_merge(
-                cfg.process.output_data_path,
-                cfg.process.adjust_method,
-                cfg.process.write
-            )
-        case 'concat':
-            driver.concat_merge(
+            _ = driver.raw_merge(
                 cfg.process.adjust_method,
                 cfg.process.write,
+                cfg.process.output_data_path,
+            )
+        case 'concat':
+            _ = driver.concat_merge(
+                cfg.process.adjust_method,
+                cfg.process.write,
+                cfg.process.output_data_path,
                 cfg.process.concat_sheet_name
             )
 

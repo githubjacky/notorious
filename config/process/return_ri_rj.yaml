@@ -1,5 +1,5 @@
 gtab_res_dir: data/gtab_res/predator/original
-raw_data_path: data/raw/victim_list_11222023.xlsx
+geo_period: worldwide_['2016-01-03', '2018-12-31']
 output_data_path: data/processed/victim_list_11222023.xlsx
 # how to transform the weekly gtab result to monthly
 adjust_method: sum
@@ -7,5 +7,6 @@ adjust_method: sum
 # should be raw
 # raw, concat
 merge_method: raw
+min_value: 0.00001
 write: False
 concat_sheet_name: new_Ri_sum_smooth_addmin

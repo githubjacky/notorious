@@ -2,13 +2,6 @@ version: '3.8'
 services:
   pytest:
     image: 0jacky/notorious_cls:latest
-    build:
-      dockerfile: ./Dockerfile
-      context: .
-      args:
-        UID: $UID
-        GID: $GID
-        USER: $DOCKER_USER
     container_name: pytest
     environment:
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
@@ -27,6 +20,14 @@ services:
 
   create-anchorbanks:
     image: 0jacky/notorious_cls:latest
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+      args:
+        UID: $UID
+        GID: $GID
+        USER: $DOCKER_USER
+
     container_name: create_anchorbanks
     network_mode: "host"
     volumes:
@@ -43,7 +44,7 @@ services:
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
-    command: python /home/$DOCKER_USER/notorious_cls/scripts/create_anchorbanks.py
+    command: python /home/$DOCKER_USER/notorious_cls/scripts/create_anchorbanks.py process=trend_search
 
 
   trend-search:
@@ -64,12 +65,12 @@ services:
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
-    command: python /home/$DOCKER_USER/notorious_cls/scripts/trend_search.py
+    command: python /home/$DOCKER_USER/notorious_cls/scripts/trend_search.py process=trend_search
 
 
-  adjust-ait:
+  return-ri-rj:
     image: 0jacky/notorious_cls:latest
-    container_name: adjust_ait
+    container_name: return_ri_rj
     network_mode: "host"
     volumes:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
@@ -77,7 +78,7 @@ services:
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     environment:
       - DOCKER_USER=r12323011
-    command: python script/adjust_ait.py --write --sum
+    command: python script/return_ri_rj.py process=return_ri_rj
 
 
   create-ri-for-regression:
@@ -93,9 +94,9 @@ services:
     command: python script/create_ri_for_regression.py --write
 
 
-  return-ri-rj:
+  adjust-ait:
     image: 0jacky/notorious_cls:latest
-    container_name: return_ri_rj
+    container_name: adjust_ait
     network_mode: "host"
     volumes:
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
@@ -103,12 +104,13 @@ services:
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     environment:
       - DOCKER_USER=r12323011
-    command: python script/return_ri_rj.py --write
+    command: python script/adjust_ait.py --write --sum
 
 
   jupyter-lab:
     image: 0jacky/notorious_cls:latest
     container_name: collect_google_trend
+    network_mode: "host"
     volumes:
       - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
       - $PWD/log:/home/$DOCKER_USER/notorious_cls/log
@@ -118,12 +120,14 @@ services:
       - $PWD/gtab_config:/home/$DOCKER_USER/notorious_cls/gtab_config
       - $PWD/notebooks/:/home/$DOCKER_USER/notorious_cls/notebooks
       - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
+      - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     ports:
-      - "8888:8888"
+      - "8891:8891"
     environment:
       - DOCKER_USER=$DOCKER_USER
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
-    command: jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --allow-root
+    command: jupyter lab --ip 0.0.0.0 --port 8891 --no-browser --allow-root
+
 

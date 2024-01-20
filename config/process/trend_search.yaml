@@ -13,7 +13,6 @@ gtab:
   fetch_keyword: False
   gtab_res_dir: data/gtab_res/predator
   # if the gtab result is smaller that min_value replace it with the min_value
-  min_value: 0.00001
   continuous_mode: True
 
 negative_search:

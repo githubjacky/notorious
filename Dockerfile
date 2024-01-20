@@ -25,7 +25,7 @@ RUN apt-get update && \
 RUN curl -sSL https://install.python-poetry.org | python3 - --version 1.6.0
 COPY pyproject.toml ./
 RUN poetry install
-EXPOSE 8888
+EXPOSE 8891
 
 USER $USER
 WORKDIR /home/$USER/notorious_cls
