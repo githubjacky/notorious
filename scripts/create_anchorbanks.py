@@ -1,7 +1,10 @@
+import os, sys
+sys.path.append(os.path.abspath(f"{os.getcwd()}"))
+
+
 import hydra
 from loguru import logger
 from omegaconf import DictConfig
-
 from ncls.process import TrendSearch
 
 
@@ -10,7 +13,7 @@ def main(cfg: DictConfig):
     geo = "" if cfg.process.gtab.geo == "worldwide" else cfg.process.gtab.geo
     logger.info(f"district: {geo}")
 
-    engine = TrendSearch(
+    driver = TrendSearch(
         cfg.process.gtab.target,
         cfg.process.gtab.suffix,
         geo,
@@ -20,7 +23,7 @@ def main(cfg: DictConfig):
         cfg.process.negative_search.sentiment_model,
         cfg.process.negative_search.extract_model
     )
-    engine.setup(cfg.process.gtab.init_path)
+    driver.setup(cfg.process.gtab.init_path)
 
 
 if __name__ == "__main__":

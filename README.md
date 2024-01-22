@@ -3,11 +3,11 @@
 
 
 ## File Structure
-All the source code can be found under **ncls/** folder and this is the main
-module of this repo. Besides, I modify some of the code
-in original gtab [repo](https://github.com/epfl-dlab/GoogleTrendsAnchorBank) library and 
-store it under **ncls/process/gtab**. **config** folder is the hydra configuration for 
-collecting google trends records or web scrapping negative keywords. 
+All the source code can be found under **ncls/** folder and this is the package
+directory of this repo. The package contains the process module and the gtab
+sub-module stored under it is the code that I modify from  [here](https://github.com/epfl-dlab/GoogleTrendsAnchorBank).
+**config** folder is the hydra configuration for various processes and you can
+check all the available processes in the Makefile.
 The **env/** folder simply store the meta-data after collect google trends records, 
 such as the invalid keywords, keywords which need to be checked whether
 it is actually "negative". **notebooks/** store the jupyter notebook that I use 
@@ -37,14 +37,21 @@ dvc pull -r origin data/gtab_res
 *Notice: DVC is a data version control utilities: [dvc](https://github.com/iterative/dvc)*
 
 
-## docker container
+## build the runtime environment
+1. docker
 To build the image you need to either modify the *$USERID*, *$GROUPID* and *$DOCKERUSER*
 manually or crate an .env file and define those three environment variables. For more information, check out the compose file: docker-compose.yaml
 
 To use the docker environment, build the the container first:
 ```shell
+docker compose dbuild
+```
+
+2. poetry venv
+```shell
 docker compose build
 ```
+
 
 ## Tests
 for now, only test the functionality of the gtab API to detect the 429 error
@@ -75,9 +82,21 @@ make dtrend-search
 
 
 ## Data Processing(work in progress)
-- create monthly google trends records from original weekly frequency
+- create monthly google trends records from original weekly frequency for all the predators/victims
+```shell
+make return-ri-rj
+
+# docker
+make dreturn-ri-rj
+```
+- create ri for regression:
+```shell
+make ri-reg
+
+# docker
+make dri-reg
+```
 - adjust ait matrix to exclude the self-issue action
-- from *new_ri_sum_smooth* to *new_ri_for_regression*:
 
 
 ## Collect Negative Google Trends

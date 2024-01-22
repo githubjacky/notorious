@@ -65,7 +65,7 @@ services:
       - HUGGINGFACE_HUB_CACHE=/home/$DOCKER_USER/notorious_cls/model/huggingface/hub
       - FLAIR_CACHE_ROOT=/home/$DOCKER_USER/notorious_cls/model/flair
       - NLTK_DATA=/home/$DOCKER_USER/notorious_cls/model/nltk_data
-    command: python /home/$DOCKER_USER/notorious_cls/scripts/trend_search.py process=trend_search
+    command: python scripts/trend_search.py process=trend_search
 
 
   return-ri-rj:
@@ -73,12 +73,13 @@ services:
     container_name: return_ri_rj
     network_mode: "host"
     volumes:
+      - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
       - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     environment:
       - DOCKER_USER=r12323011
-    command: python script/return_ri_rj.py process=return_ri_rj
+    command: python scripts/return_ri_rj.py process=return_ri_rj
 
 
   create-ri-for-regression:
@@ -86,12 +87,13 @@ services:
     container_name: create_ri_for_regression
     network_mode: "host"
     volumes:
+      - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
       - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     environment:
       - DOCKER_USER=$DOCKER_USER
-    command: python script/create_ri_for_regression.py --write
+    command: python scripts/create_ri_for_regression.py process=create_ri_for_regression
 
 
   adjust-ait:
@@ -99,12 +101,13 @@ services:
     container_name: adjust_ait
     network_mode: "host"
     volumes:
+      - $PWD/config:/home/$DOCKER_USER/notorious_cls/config
       - $PWD/data:/home/$DOCKER_USER/notorious_cls/data
       - $PWD/ncls:/home/$DOCKER_USER/notorious_cls/ncls
       - $PWD/scripts:/home/$DOCKER_USER/notorious_cls/scripts
     environment:
       - DOCKER_USER=r12323011
-    command: python script/adjust_ait.py --write --sum
+    command: python scripts/adjust_ait.py --write --sum
 
 
   jupyter-lab:

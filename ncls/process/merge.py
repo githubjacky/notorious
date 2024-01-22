@@ -3,7 +3,6 @@ import numpy as np
 import orjson
 import pandas as pd
 from pathlib import Path
-import xlwings as xw
 
 
 from .utils import get_target_list
@@ -147,30 +146,10 @@ class MergeUtil:
         return df
 
 
-    def __read_excel_formula(self,
-                             file_path: str = 'data/processed/victim_list_11222023.xlsx',
-                             sheet_name: str = 'new_Ri_sum_smooth_addmin'
-                            ):
-        """Read Excel Sheet with calculated cell value from the corresponding formula."""
-
-        with xw.App(visible=False) as app:
-            book = app.books.open(file_path)
-
-        dir = Path('/'.join(file_path.split('/')[:-1]))
-        ftemp = dir / 'temp.xlsx'
-        book.save(ftemp)
-        app.kill()
-
-        df = pd.read_excel(ftemp, sheet_name)
-        ftemp.unlink()
-
-        return df
-
-
     def concat_merge(self,
                      adjust_method: str = 'sum',
                      write: bool = True,
-                     output_data_path: str = r'data/processed/victim_list_11222023.xlsx',
+                     output_data_path: str = 'data/processed/victim_list_11222023.xlsx',
                      sheet_name: str = 'new_Ri_sum_smooth_addmin'
                     ):
         """Make sure it's not the first time to merge the result, which means
@@ -185,7 +164,22 @@ class MergeUtil:
             Pandas DataFrame, which contains the trends of all targets(predator or victim).
         """
         new_df = self.__merge_res(adjust_method)
+        old_df = pd.read_excel(output_data_path, sheet_name)
 
-        old_df = self.__read_excel_formula(output_data_path, sheet_name)
+        cols = new_df.columns[~new_df.columns.isin(old_df.columns)]
+        for col in cols:
+            old_df[col] = new_df[col]
 
-        return old_df, new_df
+        if write:
+            with pd.ExcelWriter(path = output_data_path,
+                                mode = 'a',
+                                if_sheet_exists = 'replace'
+                               ) as writer:
+
+                old_df.to_excel(
+                    writer,
+                    sheet_name = sheet_name,
+                    index = False
+                )
+
+        return old_df

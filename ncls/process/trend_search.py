@@ -86,7 +86,7 @@ class TrendSearch():
                     "timeframe": timeframe
                 },
                 conn_config={
-                    "backoff_factor": 0.1
+                    "backoff_factor": 1.
                 }
             )
             t.create_anchorbank()
@@ -128,10 +128,10 @@ class TrendSearch():
             logger.info(f"query: {keyword}")
             res = self.t.new_query(keyword).get('max_ratio')
         except ConnectionError as e:
-            logger.warning(f"{e}: {keyword}")
+            logger.warning(e)
             sys.exit()
-        except KeyError as e:
-            logger.info(f"{e}: Can't get trend result-{keyword}")
+        except AttributeError:
+            logger.info(f"Can't get trend result-{keyword}")
             status = -1
 
         return status, res

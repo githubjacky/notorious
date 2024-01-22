@@ -5,7 +5,6 @@ import hydra
 from loguru import logger
 from omegaconf import DictConfig
 from pathlib import Path
-
 from ncls.process import TrendSearch
 
 
@@ -14,7 +13,7 @@ def main(cfg: DictConfig):
     geo = "" if cfg.process.gtab.geo == "worldwide" else cfg.process.gtab.geo
     logger.info(f"district: {geo}")
 
-    engine = TrendSearch(
+    driver = TrendSearch(
         cfg.process.gtab.target,
         cfg.process.gtab.suffix,
         geo,
@@ -24,11 +23,11 @@ def main(cfg: DictConfig):
         cfg.process.negative_search.sentiment_model,
         cfg.process.negative_search.extract_model
     )
-    engine.setup(cfg.process.gtab.init_path)
-    engine.calibrate_batch(
+    driver.setup(cfg.process.gtab.init_path)
+    driver.calibrate_batch(
         cfg.process.gtab.sleep,
         cfg.process.gtab.fetch_keyword,
-        Path(cfg.process.gtab.gtab_res_dir),
+        Path(cfg.process.gtab.gtab_res_dir) / cfg.process.gtab.target,
         cfg.process.gtab.continuous_mode
     )
 

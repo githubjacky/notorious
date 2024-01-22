@@ -9,7 +9,12 @@ from ncls.process import MergeUtil
 
 @hydra.main(config_path="../config", config_name="main", version_base=None)
 def main(cfg: DictConfig):
-    driver = MergeUtil(cfg.process.gtab_res_dir, cfg.process.geo_period)
+    suffix = cfg.process.suffix if cfg.process.suffix is not None else "original"
+    driver = MergeUtil(
+        f'{cfg.process.gtab_res_dir}/{cfg.process.target}/{suffix}',
+        cfg.process.geo_period
+    )
+
     match cfg.process.merge_method:
         case 'raw':
             _ = driver.raw_merge(
