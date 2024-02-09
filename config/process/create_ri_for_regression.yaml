@@ -1,5 +1,0 @@
-s_data_path: data/raw/s.csv
-ri_sheet_name: new_Ri_sum_smooth_addmin
-raw_data_path: data/processed/victim_list_11222023.xlsx
-new_sheet: new_Ri_for_regression_addmin
-write: True

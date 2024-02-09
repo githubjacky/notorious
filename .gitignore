@@ -1,12 +1,6 @@
-nohup.out
-# raw data
-data/raw/*.xlsx
-
-data/processed.old
-gtab_config/output/google_anchorbanks_bak
-
-# log
-log/
+# dev environment
+dev/
+ref/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -17,6 +11,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+env/
 .venv
 build/
 develop-eggs/
@@ -59,7 +54,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
+# *.log
 
 # Sphinx documentation
 docs/_build/
@@ -101,5 +96,4 @@ target/
 
 # Hydra logs
 outputs
-/mlruns
-/model
+mlruns/

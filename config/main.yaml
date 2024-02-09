@@ -1,14 +1,13 @@
 hydra:
-    output_subdir: null
-    run:
-      dir: .
-
+  output_subdir: null  
+  run:
+    dir: .
 
 defaults:
-    - process: trend_search
-    - _self_
+  # - process: process1
+  # - model: model1
+  - _self_
 
-
-data:
-  raw: data/raw/
-  preprocess: data/preprocess
+data_dir:
+  raw: data/raw
+  processed: data/processed

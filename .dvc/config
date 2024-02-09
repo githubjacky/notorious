@@ -1,3 +1,6 @@
+[core]
+    remote = origin
 ['remote "origin"']
-    url = https://dagshub.com/githubjacky/notorious_cls.dvc
+    url = https://dagshub.com/githubjacky/notorious.dvc
     read_timeout = 0
+    connect_timeout = 0

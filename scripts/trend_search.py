@@ -5,7 +5,7 @@ import hydra
 from loguru import logger
 from omegaconf import DictConfig
 from pathlib import Path
-from ncls.process import TrendSearch
+from src.process import TrendSearch
 
 
 @hydra.main(config_path="../config", config_name="main", version_base=None)
