@@ -1,0 +1,18 @@
+geo:
+period:
+  - 2016-06-01
+  - 2018-12-31
+init_path: gtab_config
+db_name: no_suffix
+# collection_name: victim
+collection_name: predator
+continuous_mode: True
+max_retry: 5
+# target: victim
+target: predator
+# merge_method: mean
+merge_method: sum
+raw_data_path: data/processed/victim_list_11222023.xlsx
+sheet_name: new_Ri_sum_smooth_addmin
+# sheet_name: new_Rj_sum_smooth_addmin
+min_value: 0.00001

@@ -1,0 +1,3 @@
+raw_data_path: data/processed/victim_list_11222023.xlsx
+predator_victim_sheet: 名單
+sum: False

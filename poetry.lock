@@ -598,7 +598,7 @@ urllib3 = "==1.*"
 type = "git"
 url = "https://github.com/githubjacky/calibrate-google-trends.git"
 reference = "HEAD"
-resolved_reference = "18cf81843ed2dafbb595fbc39a674a970850d939"
+resolved_reference = "714f675a4e5e90d9b0142a9682079bf099628018"
 
 [[package]]
 name = "catalogue"

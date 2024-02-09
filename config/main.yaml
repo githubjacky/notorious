@@ -4,10 +4,5 @@ hydra:
     dir: .
 
 defaults:
-  # - process: process1
-  # - model: model1
+  - process: trend_search
   - _self_
-
-data_dir:
-  raw: data/raw
-  processed: data/processed

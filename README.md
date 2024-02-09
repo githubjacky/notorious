@@ -30,6 +30,7 @@ make clean
 make pytest
 
 # project documentation
+# after typing the command open docs/_build//html/index.html in the browser
 make doc
 
 # development IDE - Jupyter Lab
@@ -39,5 +40,18 @@ make jupyter
 make mlflow
 ```
 
-
-## process scripts/notebooks
+## Usage
+1. download the [MongoDB](https://www.mongodb.com/try/download/community) and start the server
+2. modify the `.env.example`, assigning the environment variables and rename it as `.env`
+3. modify the configuration file - `config/main.yaml`
+4. run the program
+```sh
+# 1.
+make trend-search
+# 2.
+make adjust-ait
+```
+5. stop the container(stop mongodb server also)
+```sh
+make down
+```

@@ -24,6 +24,35 @@ services:
       - $PWD/data/db:/data/db
 
 
+  trend-search:
+    image: 0jacky/$PROJ:latest
+    container_name: pytest
+    depends_on:
+      - mongodb
+    environment:
+      - CONN_STR=$CONN_STR
+    volumes:
+      - $PWD/config:/home/$DOCKER_USER/$PROJ/config
+      - $PWD/log:/home/$DOCKER_USER/$PROJ/log
+      - $PWD/data:/home/$DOCKER_USER/$PROJ/data
+      - $PWD/src:/home/$DOCKER_USER/$PROJ/src
+      - $PWD/gtab_config:/home/$DOCKER_USER/$PROJ/gtab_config
+      - $PWD/scripts:/home/$DOCKER_USER/$PROJ/scripts
+    command: python scripts/trend_search.py
+
+
+  adjust-ait:
+    image: 0jacky/$PROJ:latest
+    container_name: pytest
+    volumes:
+      - $PWD/config:/home/$DOCKER_USER/$PROJ/config
+      - $PWD/log:/home/$DOCKER_USER/$PROJ/log
+      - $PWD/data:/home/$DOCKER_USER/$PROJ/data
+      - $PWD/src:/home/$DOCKER_USER/$PROJ/src
+      - $PWD/scripts:/home/$DOCKER_USER/$PROJ/scripts
+    command: python scripts/adjust_ait.py
+
+
   pytest:
     image: 0jacky/$PROJ:latest
     container_name: pytest

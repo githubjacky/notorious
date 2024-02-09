@@ -1,4 +1,4 @@
-.PHONY: first_build build clean pytest doc jupyter mlflow
+.PHONY: first_build build clean pytest doc jupyter mlflow trend-search adjust-ait
 
 
 first_build:
@@ -16,6 +16,10 @@ first_build:
 
 build:
 	docker compose build
+
+
+down:
+	docker compose down
 
 
 clean:
@@ -36,3 +40,11 @@ jupyter:
 
 mlflow:
 	docker compose run --rm --service-ports mlflow-ui
+
+
+trend-search:
+	docker compose run --rm trend-search
+
+
+adjust-ait:
+	docker compose run --rm trend-search
